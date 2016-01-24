@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/16397/apps/aidoc/trunk/amp-aicore/src/main/resources/alfresco/extension
+END
+indexingfeeder.properties
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/16397/apps/aidoc/trunk/amp-aicore/src/main/resources/alfresco/extension/indexingfeeder.properties
+END
+indexingfeeder-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/16397/apps/aidoc/trunk/amp-aicore/src/main/resources/alfresco/extension/indexingfeeder-context.xml
+END
+transformers-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/16369/apps/aidoc/trunk/amp-aicore/src/main/resources/alfresco/extension/transformers-context.xml
+END

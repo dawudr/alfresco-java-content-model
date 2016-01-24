@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/15892/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/service
+END
+AidocServiceClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/15787/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/service/AidocServiceClient.java
+END
+AidocRestServiceClientImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/15801/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/service/AidocRestServiceClientImpl.java
+END
+AidocRestServiceClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/15801/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/service/AidocRestServiceClient.java
+END
+AidocServiceClientRemoteImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/!svn/ver/15892/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/service/AidocServiceClientRemoteImpl.java
+END
+ServiceCallResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/14217/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/service/ServiceCallResult.java
+END

@@ -1,0 +1,8 @@
+<webscript>
+  <shortname>Aidoc Categories</shortname>
+  <description>Provide a list of categories</description>
+  <url>/aidoc/categories/{subcategory}</url>
+  <format default="xml">argument</format>
+  <authentication>guest</authentication>
+  <transaction>required</transaction>
+</webscript>

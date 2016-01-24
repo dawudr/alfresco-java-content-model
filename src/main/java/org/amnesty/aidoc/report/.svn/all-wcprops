@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/15949/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/report
+END
+Reporting.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/15922/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/report/Reporting.java
+END
+AssetReportImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/15949/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/report/AssetReportImpl.java
+END
+CategoryReportImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/15546/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/report/CategoryReportImpl.java
+END
+RenditionReportImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/15507/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/report/RenditionReportImpl.java
+END

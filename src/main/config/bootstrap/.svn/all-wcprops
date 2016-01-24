@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/16388/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap
+END
+spacetemplates-asset.acp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/spacetemplates-asset.acp.xml
+END
+users.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/users.xml
+END
+presenttemplates.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/presenttemplates.xml
+END
+webscripts-aidoc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc.xml
+END
+spacetemplates-edition.acp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/spacetemplates-edition.acp.xml
+END
+teamspaces.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/teamspaces.xml
+END
+groups.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/15746/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/groups.xml
+END
+spacetemplates-formatted-edition.acp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/15412/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/spacetemplates-formatted-edition.acp.xml
+END
+ann_asset_struc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/ann_asset_struc.xml
+END
+spacetemplates-classification.acp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/spacetemplates-classification.acp.xml
+END
+assetlib.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/assetlib.xml
+END
+webscripts-archive.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-archive.xml
+END
+webscripts-amnesty.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-amnesty.xml
+END

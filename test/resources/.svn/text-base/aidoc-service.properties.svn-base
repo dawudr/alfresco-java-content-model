@@ -1,0 +1,4 @@
+alfresco.server.host=localhost
+alfresco.server.port=8080
+alfresco.server.login=admin
+alfresco.server.password=admin

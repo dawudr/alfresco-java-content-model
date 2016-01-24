@@ -1,0 +1,67 @@
+8
+
+dir
+16402
+https://svn.amnesty.org/repos/apps/aidoc/trunk/amp-aicore/src/test/java/org/amnesty/aidoc
+https://svn.amnesty.org/repos
+
+
+
+2010-11-22T17:45:32.666985Z
+16402
+drahman
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1d66758f-4870-4244-a4cf-f140c9218451
+
+AiIndexTest.java
+file
+
+
+
+
+2010-11-18T23:24:10.180000Z
+f7b667b922d18106e361ba489313c020
+2008-12-04T18:48:03.569991Z
+14217
+mcox
+
+UtilTest.java
+file
+
+
+
+
+2010-11-18T23:24:11.053000Z
+46fc482bbc543f30a99ffd28c84a79c9
+2010-03-29T09:59:14.068689Z
+15704
+iramosbi
+
+feeder
+dir
+
+search
+dir
+
+service
+dir
+
+transform
+dir
+
+webscript
+dir
+

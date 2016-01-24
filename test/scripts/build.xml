@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+
+<project name="aidoc-scripts" default="install" basedir=".">
+  <property file="${user.home}/build.properties" />
+
+  <property name="webapp.dir" value="${jetty.home}/webapps/alfresco" />
+  <property name="clean.war" value="${alfresco.home}/downloads/current/alfresco.war" />
+  <property name="sdk.lib.dir" value="${alfresco.home}/_lib/alfresco.war/WEB-INF/lib" />
+  <property name="builds.dir" value="${alfresco.home}/_aibuilds" />
+  <property name="amps.dir" value="${alfresco.home}/_aimodules" />
+  <property name="alfresco.data.dir" value="${alfresco.home}/data" />
+
+  <!-- Modules -->
+  <property name="trans.mod" value="amp-translation.amp" />
+  <property name="aicore.mod" value="amp-aicore" />
+  <property name="lang-fr.mod" value="amp-lang-fr" />
+  <property name="lang-es.mod" value="amp-lang-es" />
+  <property name="testdata.mod" value="amp-testdata" />
+
+  <property name="war.file" value="${builds.dir}/alfresco.war" />
+
+  <path id="class.path">
+    <fileset dir="lib" includes="**/*.jar" />
+  </path>
+
+  <target name="alf-clean" description="Clears out the Alfresco build folder">
+    <delete>
+      <fileset dir="${builds.dir}" includes="alfresco*.*" />
+    </delete>
+    <copy tofile="${builds.dir}/alfresco.war">
+      <fileset file="${clean.war}" />
+    </copy>
+  </target>
+
+  <target name="prepare-amps" description="Prepare AI plugins">
+
+    <exec executable="cmd" dir="../${aicore.mod}">
+      <arg value="/c" />
+      <arg value="ant.bat" />
+      <arg value="package-amp" />
+      <arg value="-Dwar.file=${builds.dir}/alfresco.war" />
+    </exec>
+    <copy todir="${amps.dir}">
+      <fileset file="../${aicore.mod}/build/dist/${aicore.mod}.amp" />
+    </copy>
+
+    <exec executable="cmd" dir="../${lang-fr.mod}">
+      <arg value="/c" />
+      <arg value="ant.bat" />
+      <arg value="package-amp" />
+      <arg value="-Dwar.file=${builds.dir}/alfresco.war" />
+    </exec>
+    <copy todir="${amps.dir}">
+      <fileset file="../${lang-fr.mod}/build/dist/${lang-fr.mod}.amp" />
+    </copy>
+
+    <exec executable="cmd" dir="../${lang-es.mod}">
+      <arg value="/c" />
+      <arg value="ant.bat" />
+      <arg value="package-amp" />
+      <arg value="-Dwar.file=${builds.dir}/alfresco.war" />
+    </exec>
+    <copy todir="${amps.dir}">
+      <fileset file="../${lang-es.mod}/build/dist/${lang-es.mod}.amp" />
+    </copy>
+
+    <exec executable="cmd" dir="../${testdata.mod}">
+      <arg value="/c" />
+      <arg value="ant.bat" />
+      <arg value="package-amp" />
+      <arg value="-Dwar.file=${builds.dir}/alfresco.war" />
+    </exec>
+    <copy todir="${amps.dir}">
+      <fileset file="../${testdata.mod}/build/dist/${testdata.mod}.amp" />
+    </copy>
+
+  </target>
+
+  <target name="install" description="Build an Aidoc Alfresco war" depends="alf-clean">
+
+    <echo message="Installing all modules in ${amps.dir} to ${war.file}. See install.log for details" />
+    <exec executable="java" dir="." output="install.log">
+      <arg value="-jar" />
+      <arg value="lib/alfresco-mmt-2.1.0R1.jar" />
+      <arg value="install" />
+      <arg value="${amps.dir}" />
+      <arg value="${war.file}" />
+      <arg value="-directory" />
+      <arg value="-force" />
+      <arg value="-verbose" />
+      <arg value="-nobackup" />
+    </exec>
+    <war destfile="${builds.dir}/alfresco.war" webxml="web/WEB-INF/web.xml" update="true">
+      <fileset dir="web/" includes="WEB-INF/faces-config-custom.xml" />
+    </war>
+  </target>
+
+  <!-- 
+       NOTE: The calling target needs to set the 'dbenv' property
+    -->
+  <target name="rebuild_db" description="Delete and create a fresh database">
+    <dirname property="scripts.basedir" file="${ant.file.aidoc-scripts}" />
+
+    <echo message="Delete and create a fresh database" />
+    <exec executable="mysql" input="${scripts.basedir}/db_${dbenv}/db_remove.sql">
+      <arg value="-u${dba.username}" />
+      <arg value="--password=${dba.password}" />
+    </exec>
+
+    <echo message="Deleting indexes..." />
+    <delete dir="${alfresco.data.dir}/${dbenv}" />
+
+    <echo message="Creating Alfresco database and user..." />
+    <exec executable="mysql" input="${scripts.basedir}/db_${dbenv}/db_setup.sql">
+      <arg value="-u${dba.username}" />
+      <arg value="--password=${dba.password}" />
+    </exec>
+
+    <mkdir dir="${alfresco.data.dir}/${dbenv}" />
+    <echo message="Database prepared." />
+  </target>
+
+  <target name="rebuild_db_dev" description="Delete and create a fresh development database">
+    <property name="dbenv" value="dev" />
+    <ant target="rebuild_db" />
+  </target>
+
+  <target name="rebuild_db_live" description="Delete and create a fresh live database">
+    <property name="dbenv" value="live" />
+    <ant target="rebuild_db" />
+  </target>
+
+  <target name="rebuild_db_test" description="Delete and create a fresh test database">
+    <property name="dbenv" value="test" />
+    <ant target="rebuild_db" />
+  </target>
+
+  <target name="redeploy_jetty_alf" description="Delete and create a fresh alfresco deployment">
+    <delete dir="${webapp.dir}" />
+    <unjar dest="${webapp.dir}" src="${clean.war}" />
+  </target>
+
+  <target name="redeploy_tomcat_alf" description="Delete and create a fresh alfresco deployment">
+
+    <delete file="${tomcat.home}/alfresco*.log" />
+    <delete dir="${tomcat.home}/logs" />
+    <delete dir="${tomcat.home}/webapps/alfresco" />
+    <delete dir="${tomcat.home}/temp/alfresco" />
+    <delete dir="${tomcat.home}/work/catalina/localhost/alfresco" />
+
+    <copy todir="${tomcat.home}/webapps">
+      <fileset file="${builds.dir}/alfresco.war" />
+    </copy>
+
+  </target>
+
+</project>

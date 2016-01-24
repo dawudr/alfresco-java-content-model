@@ -1,0 +1,52 @@
+8
+
+dir
+16402
+https://svn.amnesty.org/repos/apps/aidoc/trunk/amp-aicore/src/main/webapp/dashboard
+https://svn.amnesty.org/repos
+
+
+
+2008-08-05T16:49:40.857046Z
+14059
+drand
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1d66758f-4870-4244-a4cf-f140c9218451
+
+index.jsp
+file
+
+
+
+
+2010-11-18T23:24:25.545000Z
+885ae0a90c8f869a9eae75e1d4b4df61
+2008-08-05T16:49:40.857046Z
+14059
+drand
+
+manage-assets-page.xhtml
+file
+
+
+
+
+2010-11-18T23:24:25.555000Z
+88ff43f6b51d398d0e636eed6c7550e3
+2008-08-05T16:49:40.857046Z
+14059
+drand
+

@@ -1,0 +1,40 @@
+8
+
+dir
+16402
+https://svn.amnesty.org/repos/apps/aidoc/trunk/amp-aicore/src/main
+https://svn.amnesty.org/repos
+
+
+
+2010-11-22T14:46:27.452621Z
+16400
+iramosbi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1d66758f-4870-4244-a4cf-f140c9218451
+
+config
+dir
+
+java
+dir
+
+resources
+dir
+
+webapp
+dir
+

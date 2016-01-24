@@ -1,0 +1,9 @@
+<webscript>
+  <shortname>Update Indexed Asset Type</shortname>
+  <description>Update metadata for an existing asset type</description>
+  <url>/aidoc/updatetype</url>
+  <format default="xml">argument</format>
+  <authentication>guest</authentication>
+  <transaction>required</transaction>
+</webscript>
+

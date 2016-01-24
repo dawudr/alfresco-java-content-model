@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+
+<beans>
+
+  <!-- Bootstrap -->
+
+  <bean id="aicore.bootstrapUsers"
+    class="org.alfresco.repo.module.ImporterModuleComponent"
+    parent="module.baseComponent">
+    <property name="moduleId" value="aicore" />
+    <property name="name" value="bootstrapUsers" />
+    <property name="description" value="Our users" />
+    <property name="sinceVersion" value="1.0" />
+    <property name="appliesFromVersion" value="1.0" />
+    <property name="importer" ref="userBootstrap" />
+    <property name="bootstrapViews">
+      <list>
+        <props>
+          <prop key="path">
+            /${alfresco_user_store.system_container.childname}/${alfresco_user_store.user_container.childname}
+          </prop>
+          <prop key="location">
+            alfresco/module/aicore/bootstrap/users.xml
+          </prop>
+        </props>
+      </list>
+    </property>
+  </bean>
+  
+  <bean id="aicore.bootstrapGroups" class="org.alfresco.repo.module.ImporterModuleComponent" parent="module.baseComponent">
+       <property name="moduleId" value="aicore" />
+       <property name="name" value="bootstrapGroups" />
+       <property name="description" value="Our groups" />
+       <property name="sinceVersion" value="1.0" />        
+       <property name="appliesFromVersion" value="1.0" />  
+       <property name="importer" ref="spacesBootstrap"/>
+       <property name="bootstrapViews">
+           <list>
+               <props>
+                   <prop key="path">/${alfresco_user_store.system_container.childname}/sys:authorities</prop>
+                   <prop key="location">alfresco/module/aicore/bootstrap/groups.xml</prop>
+               </props>
+           </list>
+       </property>
+   </bean>
+
+  <bean id="aicore.bootstrapSpaces"
+    class="org.alfresco.repo.module.ImporterModuleComponent"
+    parent="module.baseComponent">
+    <property name="moduleId" value="aicore" />
+    <property name="name" value="bootstrapSpaces" />
+    <property name="description" value="Initial folder structure" />
+    <property name="sinceVersion" value="1.0" />
+    <property name="appliesFromVersion" value="1.0" />
+    <!-- Data properties -->
+    <property name="importer" ref="spacesBootstrap" />
+    <property name="bootstrapViews">
+      <list>
+        <props>
+          <prop key="path">/${spaces.company_home.childname}</prop>
+          <prop key="location">
+            alfresco/module/aicore/bootstrap/assetlib.xml
+          </prop>
+        </props>
+        <props>
+          <prop key="path">
+            /${spaces.company_home.childname}/${spaces.user_homes.childname}
+          </prop>
+          <prop key="location">
+            alfresco/module/aicore/bootstrap/teamspaces.xml
+          </prop>
+        </props>
+        <props>
+          <prop key="path">
+            /${spaces.company_home.childname}/${spaces.dictionary.childname}/${spaces.templates.childname}
+          </prop>
+          <prop key="location">
+            alfresco/module/aicore/bootstrap/spacetemplates-edition.acp.xml
+          </prop>
+        </props>
+        <props>
+          <prop key="path">
+            /${spaces.company_home.childname}/${spaces.dictionary.childname}/${spaces.templates.childname}
+          </prop>
+          <prop key="location">
+            alfresco/module/aicore/bootstrap/spacetemplates-formatted-edition.acp.xml
+          </prop>
+        </props>
+        <props>
+          <prop key="path">
+            /${spaces.company_home.childname}/${spaces.dictionary.childname}/${spaces.templates.content.childname}
+          </prop>
+          <prop key="location">
+            alfresco/module/aicore/bootstrap/presenttemplates.xml
+          </prop>
+        </props>
+        <props>
+          <prop key="path">
+            /${spaces.company_home.childname}/${spaces.dictionary.childname}/${spaces.templates.childname}
+          </prop>
+          <prop key="location">
+            alfresco/module/aicore/bootstrap/spacetemplates-asset.acp.xml
+          </prop>
+        </props>
+        <props>
+          <prop key="path">
+            /${spaces.company_home.childname}/${spaces.dictionary.childname}/${spaces.templates.childname}
+          </prop>
+          <prop key="location">
+            alfresco/module/aicore/bootstrap/spacetemplates-classification.acp.xml
+          </prop>
+        </props>
+        <props>
+          <prop key="path">
+            /${spaces.company_home.childname}/${spaces.dictionary.childname}/${spaces.templates.childname}
+          </prop>
+          <prop key="location">
+            alfresco/module/aicore/bootstrap/ann_asset_struc.xml
+          </prop>
+        </props>
+        <props>
+          <prop key="path">
+            /${spaces.company_home.childname}/${spaces.dictionary.childname}/cm:webscripts/cm:org
+          </prop>
+          <prop key="location">
+            alfresco/module/aicore/bootstrap/webscripts-amnesty.xml
+          </prop>
+        </props>
+        <props>
+          <prop key="path">
+            /${spaces.company_home.childname}/${spaces.dictionary.childname}/cm:webscripts/cm:org/cm:amnesty
+          </prop>
+          <prop key="location">
+            alfresco/module/aicore/bootstrap/webscripts-aidoc.xml
+          </prop>
+        </props>
+        <props>
+          <prop key="path">
+            /${spaces.company_home.childname}/${spaces.dictionary.childname}/cm:webscripts/cm:org/cm:amnesty
+          </prop>
+          <prop key="location">
+            alfresco/module/aicore/bootstrap/webscripts-archive.xml
+          </prop>
+        </props>
+      </list>
+    </property>
+  </bean>
+
+
+  <bean id="org.alfresco.module.AiCore.dictionaryBootstrap"
+    parent="dictionaryModelBootstrap"
+    depends-on="dictionaryBootstrap">
+    <property name="models">
+      <list>
+        <value>alfresco/module/aicore/model/aicoreModel.xml</value>
+      </list>
+    </property>
+  </bean>
+  
+   <bean id="aicore.configBootstrap" class="org.alfresco.web.config.WebClientConfigBootstrap" init-method="init">
+      <property name="configs">
+        <list>
+           <value>classpath:alfresco/module/aicore/webClient/web-client-config-context.xml</value>
+        </list>
+      </property>
+   </bean>
+
+  <!-- AiIndexedAspect Behaviour Bean -->
+  <bean id="aiIndexedAspect"
+    class="org.amnesty.aidoc.policy.AiIndexedAspect"
+    init-method="initialise">
+    <property name="nodeService">
+      <ref bean="nodeService" />
+    </property>
+    <property name="policyComponent">
+      <ref bean="policyComponent" />
+    </property>
+    <property name="searchService">
+      <ref bean="searchService" />
+    </property>
+    <property name="fileFolderService">
+      <ref bean="fileFolderService" />
+    </property>
+  </bean>
+  
+    <!-- SecurityClassifiableAspect Behaviour Bean -->
+  <bean id="securityClassifiableAspect"
+    class="org.amnesty.aidoc.policy.SecurityClassifiableAspect"
+    init-method="initialise">
+    <property name="nodeService">
+      <ref bean="nodeService" />
+    </property>
+    <property name="policyComponent">
+      <ref bean="policyComponent" />
+    </property>
+    <property name="permissionService">
+      <ref bean="permissionService" />
+    </property>
+  </bean>
+  
+    <!-- PropagateCategoriesAspect Behaviour Bean -->
+  <bean id="propagateCategoriesAspect"
+    class="org.amnesty.aidoc.policy.PropagateCategoriesAspect"
+    init-method="initialise">
+    <property name="nodeService">
+      <ref bean="nodeService" />
+    </property>
+    <property name="namespaceService">
+      <ref bean="namespaceService" />
+    </property>
+    <property name="policyComponent">
+      <ref bean="policyComponent" />
+    </property>
+    <property name="searchService">
+      <ref bean="searchService" />
+    </property>
+    <property name="fileFolderService">
+      <ref bean="fileFolderService" />
+    </property>
+  </bean>
+
+    <bean id="reportingAction" class="org.amnesty.aidoc.report.Reporting">
+       <property name="nodeService">
+           <ref bean="nodeService" />
+       </property> 
+       <property name="enabled">
+        		<value type="java.lang.Boolean">true</value>
+       </property>
+    </bean>
+    
+    <bean id="indexingAction" class="org.amnesty.aidoc.feeder.Indexing">
+       <property name="nodeService">
+           <ref bean="nodeService" />
+       </property>
+       <property name="enabled">
+       		<value type="java.lang.Boolean">false</value>
+       </property>
+       <property name="indexingFeeder">
+           <ref bean="indexingFeeder" />
+       </property> 
+    </bean>   
+        
+    <bean id="indexingFeeder" class="org.amnesty.aidoc.feeder.IndexingFeeder">
+       <property name="contentService">
+           <ref bean="contentService" />
+       </property> 
+       <property name="indexingFeedState">
+           <ref bean="indexingFeedState" />
+       </property>      
+    </bean> 
+        
+    <bean id="indexingFeedState" class="org.amnesty.aidoc.feeder.IndexingFeedState">
+       <property name="nodeService">
+           <ref bean="nodeService" />
+       </property>
+       <property name="policyFilter">
+            <ref bean="policyBehaviourFilter"/>
+        </property>    
+    </bean> 
+           
+   <bean id="aiNodeServicePolicies" class="org.amnesty.aidoc.AiNodeServicePolicies" init-method="init">
+       <property name="policyComponent">
+           <ref bean="policyComponent" />
+       </property>
+		<property name="actions">     
+			<list>
+				<ref bean="reportingAction"/>
+				<ref bean="indexingAction"/>
+			</list>
+		</property>
+   </bean>
+    
+      
+</beans>

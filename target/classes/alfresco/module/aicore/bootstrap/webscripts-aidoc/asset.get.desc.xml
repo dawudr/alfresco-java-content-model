@@ -1,0 +1,13 @@
+<webscript>
+  <shortname>Aidoc Asset Get</shortname>
+  <description>Show information about an asset</description>
+  <url>/aidoc/asset/{year}/{aiclasssubclass}/{documentno}</url>
+  <format default="html">argument</format>
+  <authentication>guest</authentication>
+  <transaction>required</transaction>
+  <cache>
+	    <never>false</never>
+	    <public>true</public>
+	    <mustrevalidate>false</mustrevalidate>
+  </cache>
+</webscript>

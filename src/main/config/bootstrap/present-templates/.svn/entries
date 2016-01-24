@@ -1,0 +1,40 @@
+8
+
+dir
+16402
+https://svn.amnesty.org/repos/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/present-templates
+https://svn.amnesty.org/repos
+
+
+
+2010-11-18T15:50:08.361348Z
+16388
+drahman
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1d66758f-4870-4244-a4cf-f140c9218451
+
+ai_asset_info.ftl
+file
+
+
+
+
+2010-11-18T23:24:21.973000Z
+1ac2bc1a2387d78e6ff547bf7e947c94
+2010-11-18T15:50:08.361348Z
+16388
+drahman
+

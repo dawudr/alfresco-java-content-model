@@ -1,0 +1,7 @@
+<webscript>
+  <shortname>Content Retrieval</shortname>
+  <description>Stream a content property from the Repository by AiIndex</description>
+  <url>/aidoc/content/{aiIndex}/{language}/{rendition}?a={attach?}</url>
+  <authentication>guest</authentication>
+  <format default="">argument</format>
+</webscript>

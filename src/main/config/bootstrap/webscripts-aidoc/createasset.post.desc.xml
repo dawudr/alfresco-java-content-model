@@ -1,0 +1,54 @@
+<webscript>
+  <shortname>Create Indexed Asset</shortname>
+
+  <description>
+    This service creates a new asset and returns the newly allocated AI Index. 
+    It takes either a class or a type indicating how the document is to be classified.
+  </description>
+
+  <url>/aidoc/createasset</url>
+
+  <parameters>
+
+    <param>
+      <name>class</name>
+      <description>document class (3 letters followed by 2 numbers. eg. AFR46)</description>
+      <validation>mandatory if no type parameter given</validation>
+    </param>
+
+    <param>
+      <name>type</name>
+      <description>document type (must be one of PressRelease, MediaAdvisory, MediaBriefing)</description>
+      <validation>mandatory if no class parameter given</validation>
+    </param>
+
+    <param>
+      <name>title</name>
+      <description>asset title</description>
+      <validation>mandatory</validation>
+    </param>
+
+    <param>
+      <name>category</name>
+      <description>one or more categories that apply to this edition</description>
+    </param>
+
+    <param>
+      <name>docnum</name>
+      <description>document number, sequential for the year (3 digit 0 padded number. eg. 002) the next available number is used if not given</description>
+      <validation>is a 3 digit 0 padded number</validation>
+    </param>
+
+    <param>
+      <name>year</name>
+      <description>current year used if none specified. Otherwise pass 4 digit year indicating which year the document was created in</description>
+      <validation>is a 4 digit valid year</validation>
+    </param>
+  </parameters>
+
+  <format default="xml">argument</format>
+  <authentication>guest</authentication>
+
+  <transaction>required</transaction>
+</webscript>
+

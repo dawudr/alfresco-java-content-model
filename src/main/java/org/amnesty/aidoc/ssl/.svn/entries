@@ -1,0 +1,54 @@
+8
+
+dir
+16402
+https://svn.amnesty.org/repos/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/ssl
+https://svn.amnesty.org/repos
+
+
+
+2009-11-13T16:29:13.060605Z
+15402
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1d66758f-4870-4244-a4cf-f140c9218451
+
+EasySSLProtocolSocketFactory.java
+file
+
+
+
+
+2010-11-18T23:24:14.844000Z
+6febc4392ac34fc15b4cbdb01e6e0a7a
+2009-11-13T16:29:13.060605Z
+15402
+
+has-props
+
+EasyX509TrustManager.java
+file
+
+
+
+
+2010-11-18T23:24:14.829000Z
+ba61c2696aec04df05f7753b8d6241ec
+2009-11-13T16:29:13.060605Z
+15402
+
+has-props
+

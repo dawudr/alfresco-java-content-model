@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/test/web/WEB-INF/classes/alfresco/extension
+END
+file-servers-custom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/test/web/WEB-INF/classes/alfresco/extension/file-servers-custom.xml
+END
+custom-repository-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/test/web/WEB-INF/classes/alfresco/extension/custom-repository-context.xml
+END
+custom-repository.properties.template
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/test/web/WEB-INF/classes/alfresco/extension/custom-repository.properties.template
+END

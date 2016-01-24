@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view:view xmlns:view="http://www.alfresco.org/view/repository/1.0">
+  <view:metadata>
+    <view:exportBy>admin</view:exportBy>
+    <view:exportDate>2007-09-27T21:55:16.269+01:00</view:exportDate>
+    <view:exporterVersion>2.1.0 (R1 443)</view:exporterVersion>
+    <view:exportOf>/app:company_home/app:dictionary/app:space_templates/cm:Asset_x0020_Template</view:exportOf>
+  </view:metadata>
+  <aicore:Asset xmlns="" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sys="http://www.alfresco.org/model/system/1.0" xmlns:ver="http://www.alfresco.org/model/versionstore/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:fm="http://www.alfresco.org/model/forum/1.0" xmlns:rule="http://www.alfresco.org/model/rule/1.0" xmlns:wcm="http://www.alfresco.org/model/wcmmodel/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:usr="http://www.alfresco.org/model/user/1.0" xmlns:custom="custom.model" xmlns:app="http://www.alfresco.org/model/application/1.0" xmlns:module="http://www.alfresco.org/system/modules/1.0" xmlns:d="http://www.alfresco.org/model/dictionary/1.0" xmlns:alf="http://www.alfresco.org" xmlns:aicore="http://www.amnesty.org/model/aicore/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:bpm="http://www.alfresco.org/model/bpm/1.0" xmlns:wca="http://www.alfresco.org/model/wcmappmodel/1.0" xmlns:cm="http://www.alfresco.org/model/content/1.0" xmlns:reg="http://www.alfresco.org/system/registry/1.0" xmlns:wcmwf="http://www.alfresco.org/model/wcmworkflow/1.0" xmlns:view="http://www.alfresco.org/view/repository/1.0" xmlns:act="http://www.alfresco.org/model/action/1.0" xmlns:wf="http://www.alfresco.org/model/workflow/1.0" view:childName="cm:Asset Template">
+    <view:aspects>
+      <cm:auditable></cm:auditable>
+      <app:uifacets></app:uifacets>
+      <sys:incomplete></sys:incomplete>
+      <sys:referenceable></sys:referenceable>
+      <rule:rules></rule:rules>
+      <cm:copiedfrom></cm:copiedfrom>
+      <cm:templatable></cm:templatable>
+    </view:aspects>
+    <view:properties>
+      <app:icon>space-icon-default</app:icon>
+      <cm:name>Asset Template</cm:name>
+      <sys:node-dbid>494</sys:node-dbid>
+      <sys:store-identifier>SpacesStore</sys:store-identifier>
+      <cm:source>
+        <view:value view:isNull="true"></view:value>
+      </cm:source>
+      <cm:title>Asset Template</cm:title>
+      <sys:node-uuid>68943b59-44d5-11dc-ae93-7d845482aa3b</sys:node-uuid>
+      <cm:modified>2007-09-27T21:41:46.722+01:00</cm:modified>
+      <cm:template>/app:company_home/app:dictionary/app:content_templates/cm:ai_asset_info.ftl</cm:template>
+      <cm:created>2007-08-07T12:00:28.769+01:00</cm:created>
+      <sys:store-protocol>workspace</sys:store-protocol>
+      <cm:description></cm:description>
+      <cm:creator>admin</cm:creator>
+      <cm:modifier>admin</cm:modifier>
+    </view:properties>
+    <view:associations>
+      <rule:ruleFolder>
+        <cm:systemfolder view:childName="rule:ruleFolder">
+          <view:aspects>
+            <cm:auditable></cm:auditable>
+            <sys:incomplete></sys:incomplete>
+            <sys:referenceable></sys:referenceable>
+            <cm:copiedfrom></cm:copiedfrom>
+          </view:aspects>
+          <view:properties>
+            <cm:name>04c1fde9-44d4-11dc-ae93-7d845482aa3b</cm:name>
+            <sys:node-dbid>495</sys:node-dbid>
+            <sys:store-identifier>SpacesStore</sys:store-identifier>
+            <cm:source>
+              <view:value view:isNull="true"></view:value>
+            </cm:source>
+            <cm:modified>2007-09-24T21:28:15.817+01:00</cm:modified>
+            <sys:node-uuid>689b403c-44d5-11dc-ae93-7d845482aa3b</sys:node-uuid>
+            <cm:created>2007-08-07T12:00:28.847+01:00</cm:created>
+            <sys:store-protocol>workspace</sys:store-protocol>
+            <cm:creator>admin</cm:creator>
+            <cm:modifier>System</cm:modifier>
+          </view:properties>
+          <view:associations></view:associations>
+        </cm:systemfolder>
+      </rule:ruleFolder>
+    </view:associations>
+  </aicore:Asset>
+</view:view>

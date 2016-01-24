@@ -1,0 +1,41 @@
+8
+
+dir
+16402
+https://svn.amnesty.org/repos/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/transform
+https://svn.amnesty.org/repos
+
+
+
+2010-10-25T14:28:29.635475Z
+16366
+iramosbi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1d66758f-4870-4244-a4cf-f140c9218451
+
+PdfToHTMLContentTransformer.java
+file
+
+
+
+
+2010-11-18T23:24:17.344000Z
+d4e9c1196ca29801290a20772aaeedd7
+2010-04-15T10:40:48.051273Z
+15746
+iramosbi
+has-props
+

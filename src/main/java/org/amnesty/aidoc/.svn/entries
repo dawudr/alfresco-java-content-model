@@ -1,0 +1,216 @@
+8
+
+dir
+16402
+https://svn.amnesty.org/repos/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc
+https://svn.amnesty.org/repos
+
+
+
+2010-11-18T16:00:42.657451Z
+16398
+drahman
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1d66758f-4870-4244-a4cf-f140c9218451
+
+AiIndex.java
+file
+
+
+
+
+2010-11-18T23:24:14.783000Z
+2ffabc377eee1acd98c1902e1c427a98
+2009-11-13T16:28:29.850516Z
+15398
+
+AiNodeServicePolicies.java
+file
+
+
+
+
+2010-11-18T23:24:13.535000Z
+e1f42cc9af7da38ffcc8acdc5d9bc761
+2010-11-18T16:00:42.657451Z
+16398
+drahman
+has-props
+
+Asset.java
+file
+
+
+
+
+2010-11-18T23:24:14.404000Z
+6fbecda8bbbcb5f34e21256a7e3d4088
+2009-12-11T13:09:22.331314Z
+15514
+iramosbi
+
+AssetManager.java
+file
+
+
+
+
+2010-11-18T23:24:13.928000Z
+eeb450e6c0ed2aa4f509151d867f5998
+2010-06-03T11:10:22.083401Z
+15916
+iramosbi
+has-props
+
+AssetRendition.java
+file
+
+
+
+
+2010-11-18T23:24:17.300000Z
+b0b61f91b5da5481b0925e12565e0603
+2010-06-17T10:28:21.473826Z
+15939
+iramosbi
+has-props
+
+Constants.java
+file
+
+
+
+
+2010-11-18T23:24:13.945000Z
+b69ff6e93dcc142efb92ba2364264a8d
+2010-11-18T16:00:42.657451Z
+16398
+drahman
+
+Document.java
+file
+
+
+
+
+2010-11-18T23:24:13.977000Z
+c7e983be3c0dd2b862b08b0d91beb17d
+2009-11-26T15:36:27.296275Z
+15479
+iramosbi
+has-props
+
+Edition.java
+file
+
+
+
+
+2010-11-18T23:24:17.282000Z
+0e1ba3b324225e89fd7ab446b9e234b5
+2009-11-13T16:48:19.706965Z
+15423
+
+has-props
+
+NodeItem.java
+file
+
+
+
+
+2010-11-18T23:24:13.518000Z
+b53a59c2064e100427adf77ba2e6247a
+2009-11-13T16:28:38.750044Z
+15399
+
+has-props
+
+Rendition.java
+file
+
+
+
+
+2010-11-18T23:24:17.263000Z
+07ebd71a4fb89b62fa47170cf602eb5d
+2010-04-22T17:15:16.572305Z
+15800
+iramosbi
+has-props
+
+Util.java
+file
+
+
+
+
+2010-11-18T23:24:13.964000Z
+1908fae3d755cfcbcdc01e71a9f0a75c
+2010-05-20T14:38:34.428712Z
+15890
+iramosbi
+
+aicoreConfig.java
+file
+
+
+
+
+2010-11-18T23:24:16.742000Z
+c17cb642742d86fa4410b05597e862dc
+2010-11-18T16:00:42.657451Z
+16398
+drahman
+has-props
+
+aicorePolicyAction.java
+file
+
+
+
+
+2010-11-18T23:24:14.424000Z
+7e39ae7153f55411327276844c04ab20
+2010-03-29T14:57:07.252123Z
+15706
+iramosbi
+has-props
+
+feeder
+dir
+
+policy
+dir
+
+report
+dir
+
+search
+dir
+
+service
+dir
+
+ssl
+dir
+
+transform
+dir
+
+webscript
+dir
+

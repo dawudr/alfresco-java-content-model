@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xforms="http://www.w3.org/2002/xforms"
+	xmlns:xxforms="http://orbeon.org/oxf/xml/xforms"
+	xmlns:ev="http://www.w3.org/2001/xml-events"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:xi="http://www.w3.org/2001/XInclude"
+	xmlns:xxi="http://orbeon.org/oxf/xml/xinclude"
+	xmlns:ai="http://www.amnesty.org/search/1.0/"
+	xmlns:atom="http://www.w3.org/2005/Atom">
+	<head>
+		<title>Manage Assets</title>
+		<!-- Include CSS styles. Could use separate .css file, but then this adds a client load -->
+
+		<xforms:model id="classModel">
+
+			<!-- Current selection -->
+
+			<xforms:instance id="selected" xmlns="">
+				<root> <year /> <class /> </root>
+			</xforms:instance>
+
+			<xforms:bind id="selectedYear" nodeset="instance('selected')/year" />
+
+			<xforms:bind id="selectedAiClass"
+				nodeset="instance('selected')/class" />
+
+			<!-- Years -->
+
+			<xforms:instance id="yearlist" xmlns="">
+				<null />
+			</xforms:instance>
+
+			<xforms:submission id="load-years" method="get"
+				action="/alfresco/service/archive/space/" indent="true"
+				omit-xml-declaration="true" includenamespaceprefixes="#default"
+				replace="instance" instance="yearlist">
+			</xforms:submission>
+
+			<xforms:action ev:event="xforms-ready">
+				<xforms:send submission="load-years" />
+			</xforms:action>
+
+			<!-- Classes -->
+
+			<xforms:instance id="classlist" xmlns="">
+				<null />
+			</xforms:instance>
+
+			<xforms:instance id="JS">
+				<data update="javascript:updateClassListSubmit()" />
+			</xforms:instance>
+
+			<xforms:submission id="load-classes" method="get"
+				action="/alfresco/service/archive/space/" indent="true"
+				omit-xml-declaration="true" includenamespaceprefixes="#default"
+				replace="instance" instance="classlist">
+			</xforms:submission>
+
+			<!-- Asset instance -->
+
+			<xforms:instance id="assetInstance" xmlns="">
+				<AiAsset> <year /> <class />
+				<title></title>
+				<creationDate></creationDate> </AiAsset>
+			</xforms:instance>
+
+			<xforms:bind id="class" required="true()"
+				nodeset="instance('assetInstance')/class" />
+			<xforms:bind id="year" nodeset="instance('assetInstance')/year" />
+			<xforms:bind id="title" required="true()"
+				nodeset="instance('assetInstance')/title" />
+			<xforms:bind id="creationDate" type="xsd:date"
+				nodeset="instance('assetInstance')/creationDate" />
+
+			<xforms:submission id="create" ref="instance('assetInstance')" method="urlencoded-post"
+				action="/alfresco/service/aidoc/createasset" indent="true" separator="&amp;"
+				omit-xml-declaration="true" includenamespaceprefixes="#default"
+				replace="instance" instance="assetInstance">
+				<xforms:action ev:event="xforms-submit-done">
+					<xforms:send submission="load-assets" />
+				</xforms:action>
+			</xforms:submission>
+
+		</xforms:model>
+
+		<xforms:model id="assetsModel">
+
+			<xforms:instance id="assetsList">
+				<null />
+			</xforms:instance>
+
+			<xforms:submission id="load-assets" method="get"
+				action="/alfresco/service/archive/space/" indent="true"
+				omit-xml-declaration="true" separator="&amp;"
+				includenamespaceprefixes="#default" replace="instance"
+				instance="assetsList" xxforms:username="admin"
+				xxforms:password="admin">
+			</xforms:submission>
+
+		</xforms:model>
+
+		<xforms:model id="createAssetModel">
+
+
+		</xforms:model>
+
+		<script type="">
+		<![CDATA[
+			// See http://www.formsplayer.com/node/649
+			function updateClassListSubmit()
+			{
+				var oSelected = document.getElementById("selected");
+
+				var oModel = document.getElementById("classModel");
+			  var oInstance = oModel.getInstanceDocument("selected");
+
+			  var oYear = oInstance.getElementsByTagName("year")[0];
+				var year = oYear.textContent;
+				if (year.length == 4){
+					var oModel = document.getElementById("load-classes");
+					var oAttrib = oModel.attributes['action'];
+					try{
+						oAttrib.nodeValue = '/alfresco/service/archive/space/' + year;
+					}catch(e){
+					}
+				}
+				else
+					alert("Unexpected error in updateSubmit.");
+
+			  var oAiClass = oInstance.getElementsByTagName("class")[0];
+				var class = oAiClass.textContent;
+				if (year.length == 4 && class.length == 5){
+					var oModel = document.getElementById("load-assets");
+					var oAttrib = oModel.attributes['action'];
+					try{
+						oAttrib.nodeValue = '/alfresco/service/archive/space/' + year + '/' + class;
+					}catch(e){
+					}
+				};
+
+				
+			}
+    ]]>
+		</script>
+
+	</head>
+	<body>
+
+		<h1>
+			Manage Assets
+		</h1>
+
+		<h2>
+			Select the classification
+		</h2>
+		<xforms:group model="classModel">
+			<p>
+				<xforms:select1 bind="selectedYear">
+					<xforms:label>Year: </xforms:label>
+					<xforms:itemset nodeset="instance('yearlist')/index/dir">
+						<xforms:label ref="@name" />
+						<xforms:value ref="@name" />
+					</xforms:itemset>
+					<xforms:action ev:event="xforms-value-changed">
+						<xforms:load ref="instance('JS')/@update" />
+						<xforms:send submission="load-classes" />
+						<xforms:setvalue bind="year" value="instance('selected')/year" />
+					</xforms:action>
+				</xforms:select1>
+				<xforms:select1 bind="selectedAiClass">
+					<xforms:label>AiClass: </xforms:label>
+					<xforms:itemset nodeset="instance('classlist')/index/dir">
+						<xforms:label ref="@name" />
+						<xforms:value ref="@name" />
+					</xforms:itemset>
+					<xforms:action ev:event="xforms-value-changed">
+						<xforms:load ref="instance('JS')/@update" />
+						<xforms:send submission="load-assets" />
+						<xforms:setvalue bind="class"
+							value="instance('selected')/class" />
+					</xforms:action>
+				</xforms:select1>
+			</p>
+		</xforms:group>
+
+		<h2>
+			Existing assets for this classification
+		</h2>
+		<ul>
+			<xforms:group model="assetsModel">
+				<xforms:repeat nodeset="instance('assetsList')/index/dir">
+					<li>
+						<span> <xforms:output ref="@ai:formattedAssetIndex" /> </span> -
+						<span> <xforms:output ref="@ai:description" /> </span>
+					</li>
+
+				</xforms:repeat>
+			</xforms:group>
+		</ul>
+
+		<xforms:group model="assetsModel">
+			<h2>
+				Create a new asset
+			</h2>
+			<p>
+				Selected classification:
+				<xforms:output bind="class" />
+				<xforms:output bind="year" />
+			</p>
+			<p>
+				<xforms:input bind="title">
+					<xforms:label>Draft asset title: </xforms:label>
+				</xforms:input>
+				<xforms:input bind="creationDate">
+					<xforms:label>Creation date: </xforms:label>
+				</xforms:input>
+				<xforms:submit submission="create">
+					<xforms:label>Create new asset</xforms:label>
+				</xforms:submit>
+			</p>
+		</xforms:group>
+	</body>
+</html>

@@ -1,0 +1,52 @@
+8
+
+dir
+16402
+https://svn.amnesty.org/repos/apps/aidoc/trunk/_scripts/db_live
+https://svn.amnesty.org/repos
+
+
+
+2007-09-28T10:58:03.792193Z
+12852
+INTSEC\x5cchatch
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1d66758f-4870-4244-a4cf-f140c9218451
+
+db_remove.sql
+file
+
+
+
+
+2010-11-18T23:24:35.273000Z
+3ec988b94ac24889e7aa46d0058160cc
+2007-05-04T09:41:26.051582Z
+12114
+intsec\x5cdrand
+
+db_setup.sql
+file
+
+
+
+
+2010-11-18T23:24:35.284000Z
+a607eba067a5aa28cea86b91253fd418
+2007-09-28T10:58:03.792193Z
+12852
+INTSEC\x5cchatch
+

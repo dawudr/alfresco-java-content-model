@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/16394/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/feeder
+END
+IndexingFeedState.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/16394/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/feeder/IndexingFeedState.java
+END
+IndexingFeeder.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/16394/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/feeder/IndexingFeeder.java
+END
+GsaFeedImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/15589/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/feeder/GsaFeedImpl.java
+END
+IndexingFeedActionExecuter.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/16394/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/feeder/IndexingFeedActionExecuter.java
+END
+Indexing.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/16393/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/feeder/Indexing.java
+END
+GsaFeedergateClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/16392/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/feeder/GsaFeedergateClient.java
+END
+ContentFeedBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/15856/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/feeder/ContentFeedBuilder.java
+END

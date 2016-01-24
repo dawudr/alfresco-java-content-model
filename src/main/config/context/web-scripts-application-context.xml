@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+
+<beans>
+
+  <!--  Make use of: Alfresco Web Client Keyword Search (OpenSearch) -->
+  <bean id="webscript.org.amnesty.aidoc.assetsearch.get"
+    class="org.amnesty.aidoc.search.AidocSearch" parent="webscript">
+    <property name="searchService" ref="SearchService" />
+    <property name="serviceRegistry" ref="ServiceRegistry" />     
+    <property name="repositoryImageResolver" ref="webscripts.repo.imageresolver" />
+  </bean>
+  
+  <bean id="webscript.org.amnesty.library.asset.get" 
+  class="org.amnesty.aidoc.webscript.AssetWebScript"
+	parent="webscript">
+	<property name="nodeService" ref="nodeService" />
+    <property name="fileFolderService" ref="fileFolderService" />
+    <property name="contentService" ref="contentService" />
+    <property name="publicScope" value="true"/>
+    <property name="useDefaultLanguage" value="false"/>
+    <property name="selectByLanguage" value="false"/>
+  </bean>
+  
+  <bean id="webscript.org.amnesty.aidoc.asset.get" 
+  class="org.amnesty.aidoc.webscript.AssetWebScript"
+	parent="webscript">
+	<property name="nodeService" ref="nodeService" />
+    <property name="fileFolderService" ref="fileFolderService" />
+    <property name="contentService" ref="contentService" />
+    <property name="publicScope" value="true"/>
+    <property name="useDefaultLanguage" value="true"/>
+    <property name="selectByLanguage" value="false"/>
+    <property name="ignoreFormattedHtml" value="true"/>
+  </bean>
+  
+  <bean id="webscript.org.amnesty.aidoc.asset_all.get" 
+  class="org.amnesty.aidoc.webscript.AssetWebScript"
+	parent="webscript">
+	<property name="nodeService" ref="NodeService" />
+    <property name="fileFolderService" ref="fileFolderService" />
+    <property name="contentService" ref="contentService" />
+    <property name="publicScope" value="false"/>
+    <property name="useDefaultLanguage" value="true"/>
+    <property name="selectByLanguage" value="false"/>
+  </bean>
+  
+  <bean id="webscript.org.amnesty.library.index.get" 
+  class="org.amnesty.aidoc.webscript.PublicDocumentWebScript"
+	parent="webscript">
+	<property name="nodeService" ref="nodeService" />
+    <property name="fileFolderService" ref="fileFolderService" />
+    <property name="contentService" ref="contentService" />
+  </bean>
+  
+  <bean id="webscript.org.amnesty.library.restricted.get" 
+  class="org.amnesty.aidoc.webscript.RestrictedDocumentWebScript"
+	parent="webscript">
+	<property name="nodeService" ref="NodeService" />
+    <property name="fileFolderService" ref="fileFolderService" />
+    <property name="contentService" ref="contentService" />
+  </bean>
+  
+  <bean id="webscript.org.amnesty.intranet.index.get" 
+  class="org.amnesty.aidoc.webscript.DocumentWebScript"
+	parent="webscript">
+	<property name="nodeService" ref="NodeService" />
+    <property name="fileFolderService" ref="fileFolderService" />
+    <property name="contentService" ref="contentService" />
+  </bean>
+  
+    <bean id="webscript.org.amnesty.library.crawl.get" 
+  class="org.amnesty.aidoc.webscript.BrowseWebScript"
+	parent="webscript">
+	<property name="nodeService" ref="NodeService" />
+    <property name="fileFolderService" ref="fileFolderService" />
+    <property name="contentService" ref="contentService" />
+    <property name="publicScope" value="false"/>
+    <property name="browseFlag" value="false"/>
+    <property name="showParent" value="false"/>
+    <property name="showEmptyIndexes" value="false"/>
+    <property name="selectByLanguage" value="false"/>
+  </bean>
+  
+  <bean id="webscript.org.amnesty.intranet.browse.get" 
+  class="org.amnesty.aidoc.webscript.BrowseWebScript"
+	parent="webscript">
+	<property name="nodeService" ref="NodeService" />
+    <property name="fileFolderService" ref="fileFolderService" />
+    <property name="contentService" ref="contentService" />
+    <property name="publicScope" value="false"/>
+    <property name="browseFlag" value="true"/>
+    <property name="showParent" value="false"/>
+    <property name="showEmptyIndexes" value="false"/>
+    <property name="selectByLanguage" value="false"/>
+  </bean>
+  
+  <bean id="webscript.org.amnesty.aidoc.content.get" 
+  class="org.amnesty.aidoc.webscript.ContentWebScript"
+	parent="webscript">
+	<property name="nodeService" ref="nodeService" />
+    <property name="fileFolderService" ref="fileFolderService" />
+    <property name="contentService" ref="contentService" /> 
+    <property name="publicScope" value="false"/>
+    <property name="selectByLanguage" value="true"/>
+  </bean>
+    
+    <bean id="webscript.org.amnesty.library.updated.get" 
+  class="org.amnesty.aidoc.webscript.UpdatedWebScript"
+	parent="webscript">
+	<property name="nodeService" ref="nodeService" />
+	<property name="fileFolderService" ref="fileFolderService" />
+    <property name="searchService" ref="SearchService" />
+    <property name="contentService" ref="contentService" />
+  </bean>
+  
+    <bean id="webscript.org.amnesty.aidoc.categories.get" 
+  class="org.amnesty.aidoc.webscript.CategoriesWebScript"
+	parent="webscript">
+	<property name="nodeService" ref="NodeService" />
+    <property name="categoryService" ref="CategoryService" />
+  </bean>
+  
+  <bean id="webscript.org.amnesty.aidoc.asset_report.get" 
+  class="org.amnesty.aidoc.webscript.AssetReportWebScript"
+	parent="webscript">
+	<property name="nodeService" ref="nodeService" />
+    <property name="fileFolderService" ref="fileFolderService" />
+  </bean>  
+  
+  <bean id="webscript.org.amnesty.aidoc.classcode.get" 
+  class="org.amnesty.aidoc.webscript.ClasscodeWebScript"
+	parent="webscript">
+	<property name="nodeService" ref="NodeService" />
+    <property name="fileFolderService" ref="fileFolderService" />
+    <property name="publicScope" value="false"/>
+  </bean>
+  
+    <bean id="webscript.org.amnesty.archive.space.get" 
+  class="org.amnesty.aidoc.webscript.SpaceWebScript"
+	parent="webscript">
+	<property name="nodeService" ref="NodeService" />
+    <property name="fileFolderService" ref="fileFolderService" />
+  </bean>
+  
+      <bean id="webscript.org.amnesty.aidoc.list_indexes.get" 
+  class="org.amnesty.aidoc.webscript.ListIndexesWebScript"
+	parent="webscript">
+	<property name="nodeService" ref="NodeService" />
+    <property name="fileFolderService" ref="fileFolderService" />
+    <property name="publicScope" value="false"/>
+  </bean>
+  
+  <bean id="webscript.org.amnesty.aidoc.asset_feed.get" 
+  class="org.amnesty.aidoc.webscript.AssetFeedWebScript"
+	parent="webscript">
+	<property name="nodeService" ref="NodeService" />
+    <property name="fileFolderService" ref="fileFolderService" />
+    <property name="publicScope" value="false"/>
+  </bean>  
+  
+  <bean id="webscript.org.amnesty.intranet.intranetsearch.get" 
+  class="org.amnesty.aidoc.webscript.IntranetSearchWebScript"
+	parent="webscript">
+  </bean>
+
+  <bean id="webscript.org.amnesty.aidoc.createasset.post"
+    class="org.amnesty.aidoc.webscript.CreateAssetWebScript"
+    parent="webscript">
+    <property name="fileFolderService" ref="FileFolderService" />
+    <property name="nodeService" ref="NodeService" />
+    <property name="searchService" ref="SearchService" />
+    <property name="categoryService" ref="CategoryService" />
+   </bean>
+
+  <bean id="webscript.org.amnesty.aidoc.createtype.post"
+    class="org.amnesty.aidoc.webscript.CreateTypeWebScript" parent="webscript">
+    <property name="actionService" ref="ActionService" />
+    <property name="dictionaryService" ref="DictionaryService" />
+    <property name="contentService" ref="ContentService" />
+    <property name="fileFolderService" ref="FileFolderService" />
+    <property name="multilingualContentService" ref="MultilingualContentService" />
+    <property name="nodeService" ref="NodeService" />
+    <property name="ruleService" ref="RuleService" />
+    <property name="searchService" ref="SearchService" />
+    <property name="mimetypeService" ref="MimetypeService" />
+  </bean>
+
+  <bean id="webscript.org.amnesty.aidoc.updateasset.post"
+    class="org.amnesty.aidoc.webscript.UpdateAssetWebScript"
+    parent="webscript">
+    <property name="nodeService" ref="NodeService" />
+    <property name="fileFolderService" ref="fileFolderService" />
+    <property name="categoryService" ref="CategoryService" />
+  </bean>
+  
+  <bean id="webscript.org.amnesty.aidoc.deleteasset.post"
+    class="org.amnesty.aidoc.webscript.DeleteAssetWebScript"
+    parent="webscript">
+    <property name="nodeService" ref="NodeService" />
+    <property name="fileFolderService" ref="fileFolderService" />
+    <property name="permissionService" ref="PermissionService" />
+  </bean>
+  
+  <bean id="webscript.org.amnesty.aidoc.deleteassetcontents.post"
+    class="org.amnesty.aidoc.webscript.DeleteAssetContentsWebScript"
+    parent="webscript">
+    <property name="nodeService" ref="NodeService" />
+    <property name="fileFolderService" ref="fileFolderService" />
+    <property name="permissionService" ref="PermissionService" />
+  </bean>
+  
+  <bean id="webscript.org.amnesty.aidoc.purgearchivestore.post"
+    class="org.amnesty.aidoc.webscript.PurgeArchiveStoreWebScript"
+    parent="webscript">
+    <property name="nodeService" ref="NodeService" />
+    <property name="nodeArchiveService" ref="nodeArchiveService" />
+    <property name="permissionService" ref="PermissionService" />
+  </bean>
+  
+  <bean id="webscript.org.amnesty.aidoc.version.get"
+    class="org.amnesty.aidoc.webscript.VersionWebScript"
+    parent="webscript">
+    <property name="moduleService" ref="ModuleService" />
+  </bean>
+    
+  <bean id="webscript.org.amnesty.aidoc.updatetype.post"
+    class="org.amnesty.aidoc.webscript.UpdateTypeWebScript"
+    parent="webscript">
+    <property name="actionService" ref="ActionService" />
+    <property name="ruleService" ref="RuleService" />
+    <property name="nodeService" ref="NodeService" />
+    <property name="fileFolderService" ref="fileFolderService" />
+    <property name="contentService" ref="ContentService" />
+    <property name="mimetypeService" ref="MimetypeService" />
+  </bean>
+
+  <bean id="webscript.org.amnesty.aidoc.updaterendition.post"
+    class="org.amnesty.aidoc.webscript.UpdateRenditionWebScript"
+    parent="webscript">
+    <property name="nodeService" ref="NodeService" />
+    <property name="fileFolderService" ref="fileFolderService" />
+  </bean>
+</beans>

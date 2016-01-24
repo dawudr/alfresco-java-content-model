@@ -1,0 +1,90 @@
+8
+
+dir
+16402
+https://svn.amnesty.org/repos/apps/aidoc/trunk/amp-aicore/src/test/resources
+https://svn.amnesty.org/repos
+
+
+
+2010-04-15T10:48:04.830727Z
+15755
+iramosbi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1d66758f-4870-4244-a4cf-f140c9218451
+
+aidoc-service.properties
+file
+
+
+
+
+2010-11-18T23:24:11.383000Z
+2c16ca8663174ed4f14252dc17a83f9d
+2010-04-15T10:48:04.830727Z
+15755
+iramosbi
+
+alfresco
+dir
+
+createtypesimple.rtf
+file
+
+
+
+
+2010-11-18T23:24:11.398000Z
+76ff7d1e6da23c2984fed1ce5b8e58f8
+2008-12-04T18:48:03.569991Z
+14217
+mcox
+
+index-list.csv
+file
+
+
+
+
+2010-11-18T23:24:11.901000Z
+d79c44d69fe268b4e6b8eff74ca16c92
+2009-11-18T12:57:11.538525Z
+15441
+
+log4j.properties
+file
+
+
+
+
+2010-11-18T23:24:11.913000Z
+9f0ca2668e672cf925a06613287003a1
+2008-08-05T16:49:40.857046Z
+14059
+drand
+
+pressrelease.html
+file
+
+
+
+
+2010-11-18T23:24:11.373000Z
+69c204c89f41759315ff6dc8c4c12e53
+2008-12-04T18:48:03.569991Z
+14217
+mcox
+

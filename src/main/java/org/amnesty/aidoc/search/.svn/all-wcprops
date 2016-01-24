@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/15931/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/search
+END
+IntranetSearchClientDelegate.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/15404/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/search/IntranetSearchClientDelegate.java
+END
+CategoryToClassMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/15404/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/search/CategoryToClassMap.java
+END
+AidocSearch.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/15931/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/search/AidocSearch.java
+END
+AidocSearchQueryStringParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/15404/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/search/AidocSearchQueryStringParser.java
+END

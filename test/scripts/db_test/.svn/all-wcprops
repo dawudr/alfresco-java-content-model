@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/!svn/ver/14085/apps/aidoc/trunk/_scripts/db_test
+END
+db_setup.sql
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/14085/apps/aidoc/trunk/_scripts/db_test/db_setup.sql
+END
+db_remove.sql
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/14085/apps/aidoc/trunk/_scripts/db_test/db_remove.sql
+END

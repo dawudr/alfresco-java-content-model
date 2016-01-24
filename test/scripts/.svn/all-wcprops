@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/repos/!svn/ver/14085/apps/aidoc/trunk/_scripts
+END
+rebuild_alfresco_db_live.bat
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/14085/apps/aidoc/trunk/_scripts/rebuild_alfresco_db_live.bat
+END
+prepare-war.bat
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/!svn/ver/14085/apps/aidoc/trunk/_scripts/prepare-war.bat
+END
+startoffice-2.1.bat
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/14085/apps/aidoc/trunk/_scripts/startoffice-2.1.bat
+END
+redeploy-tc-alf.bat
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/14085/apps/aidoc/trunk/_scripts/redeploy-tc-alf.bat
+END
+rebuild_alfresco_db_dev.bat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/14085/apps/aidoc/trunk/_scripts/rebuild_alfresco_db_dev.bat
+END
+redeploy-jetty-alf.bat
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/!svn/ver/14085/apps/aidoc/trunk/_scripts/redeploy-jetty-alf.bat
+END
+alfresco.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/!svn/ver/14085/apps/aidoc/trunk/_scripts/alfresco.sh
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/!svn/ver/14085/apps/aidoc/trunk/_scripts/.project
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/!svn/ver/14085/apps/aidoc/trunk/_scripts/build.xml
+END
+prepare-amps.bat
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/!svn/ver/14085/apps/aidoc/trunk/_scripts/prepare-amps.bat
+END
+startoffice-2.2.bat
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/14085/apps/aidoc/trunk/_scripts/startoffice-2.2.bat
+END

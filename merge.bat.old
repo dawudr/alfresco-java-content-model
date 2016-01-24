@@ -1,0 +1,49 @@
+@echo off
+
+echo 
+echo We run this script only when we upgrade Alfresco!!
+echo It is designed to merge Alfresco changes into the versions we have modified
+echo Read the script an alter the versions before running!
+echo 
+pause
+
+set old_version=alfresco-community-war-2.1.0R1/alfresco.war
+set new_version=alfresco-community-war-2.1.0/alfresco.war
+set repos=https://svn.amnesty.org/repos/vendor/alfresco
+
+rem ========= Modified web files =========
+
+set file=jsp/login.jsp
+svn merge %repos%/%old_version%/%file% %repos%/%new_version%/%file% src/web/%file%
+
+set file=jsp/dialog/document-details.jsp
+svn merge %repos%/%old_version%/%file% %repos%/%new_version%/%file% src/web/%file%
+
+set file=jsp/parts/titlebar.jsp
+svn merge %repos%/%old_version%/%file% %repos%/%new_version%/%file% src/web/%file%
+
+set file=css/main.css
+svn merge %repos%/%old_version%/%file% %repos%/%new_version%/%file% src/web/%file%
+
+rem ========= Modified classpath files =========
+
+set file=alfresco/messages/bootstrap-spaces.properties
+svn merge %repos%/%old_version%/WEB-INF/classes/%file% %repos%/%new_version%/WEB-INF/classes/%file% src/config/%file%
+
+set file=alfresco/messages/bootstrap-spaces_en_US.properties
+svn merge %repos%/%old_version%/WEB-INF/classes/%file% %repos%/%new_version%/WEB-INF/classes/%file% src/config/%file%
+
+set file=alfresco/messages/webclient.properties
+svn merge %repos%/%old_version%/WEB-INF/classes/%file% %repos%/%new_version%/WEB-INF/classes/%file% src/config/%file%
+
+set file=alfresco/messages/webclient_en_US.properties
+svn merge %repos%/%old_version%/WEB-INF/classes/%file% %repos%/%new_version%/WEB-INF/classes/%file% src/config/%file%
+
+set file=log4j.properties
+svn merge %repos%/%old_version%/WEB-INF/classes/%file% %repos%/%new_version%/WEB-INF/classes/%file% src/config/%file%
+
+set file=alfresco/content-services-context.xml
+svn merge %repos%/%old_version%/WEB-INF/classes/%file% %repos%/%new_version%/WEB-INF/classes/%file% src/config/%file%
+
+
+

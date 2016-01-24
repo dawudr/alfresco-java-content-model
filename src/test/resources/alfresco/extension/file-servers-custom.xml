@@ -1,0 +1,11 @@
+<alfresco-config area="file-servers">
+
+	<config evaluator="string-compare" condition="CIFS Server">
+          <serverEnable enabled="false"/>
+   </config>
+
+	<config evaluator="string-compare" condition="FTP Server">
+          <serverEnable enabled="false"/>
+   </config>
+
+</alfresco-config>

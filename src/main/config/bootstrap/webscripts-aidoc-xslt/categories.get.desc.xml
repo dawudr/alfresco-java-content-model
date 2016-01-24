@@ -1,0 +1,8 @@
+<webscript>
+  <shortname>Categories XSLT</shortname>
+  <description>Categories XSLT</description>
+  <url>/aidoc/xslt/categories</url>
+  <format default="xml">argument</format>
+  <authentication>guest</authentication>
+  <transaction>required</transaction>
+</webscript>

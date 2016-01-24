@@ -1,0 +1,147 @@
+8
+
+dir
+16402
+https://svn.amnesty.org/repos/apps/aidoc/trunk/amp-aicore
+https://svn.amnesty.org/repos
+
+
+
+2010-11-22T17:45:32.666985Z
+16402
+drahman
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1d66758f-4870-4244-a4cf-f140c9218451
+
+.classpath
+file
+
+
+
+
+2010-11-18T23:24:05.015000Z
+706e715cd0b7f12787cfd502023633d9
+2009-11-18T12:57:30.231123Z
+15443
+
+.externalToolBuilders
+dir
+
+.project
+file
+
+
+
+
+2010-11-18T23:24:05.059000Z
+23527c520c65cf22124faa9e3ba13c95
+2008-12-04T18:48:03.569991Z
+14217
+mcox
+
+build.xml.old
+file
+
+
+
+
+2010-11-18T23:24:32.739000Z
+a27baa9a6dc1a6a53f171f8d0931d44e
+2008-08-05T16:49:40.857046Z
+14059
+drand
+
+file-mapping.properties.old
+file
+
+
+
+
+2010-11-18T23:24:05.025000Z
+dcd69e705dd8da47a1902e6737870863
+2008-08-05T16:49:40.857046Z
+14059
+drand
+
+lib
+dir
+
+merge.bat.old
+file
+
+
+
+
+2010-11-18T23:24:05.046000Z
+4ba9a07af63df51aedd2af124523ced7
+2008-08-05T16:49:40.857046Z
+14059
+drand
+
+module.properties
+file
+
+
+
+
+2010-11-18T23:24:05.035000Z
+ebf088ea13642132d788713912cfdb42
+2010-03-12T12:50:18.959045Z
+15640
+iramosbi
+
+pom.xml
+file
+
+
+
+
+2010-11-18T23:24:32.724000Z
+1c15238df76c4ec55b9de6c9a2435745
+2010-11-18T12:30:43.188476Z
+16387
+drahman
+
+readme.txt
+file
+
+
+
+
+2010-11-18T23:24:32.759000Z
+107681f6879afb01959d5bde747ec7b7
+2008-08-05T16:49:40.857046Z
+14059
+drand
+
+src
+dir
+
+test
+dir
+
+test.bat.sample
+file
+
+
+
+
+2010-11-18T23:24:05.070000Z
+fcf276ef855f06cb3bc11ec08393b22b
+2008-12-04T18:48:03.569991Z
+14217
+mcox
+

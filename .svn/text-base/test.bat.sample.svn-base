@@ -1,0 +1,3 @@
+@echo off
+set MAVEN_OPTS=-Xms256m -Xmx512m -XX:PermSize=128m
+mvn integration-test -P preparetestwar,webapp -Dalfresco.db.name=alf_amp_aicore -Dalfresco.db.username=root -Dalfresco.db.password=***password***

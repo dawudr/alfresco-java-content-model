@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/15932/apps/aidoc/trunk/amp-aicore/src/main/resources/alfresco/messages
+END
+bootstrap-spaces_en_US.properties
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/15932/apps/aidoc/trunk/amp-aicore/src/main/resources/alfresco/messages/bootstrap-spaces_en_US.properties
+END
+bootstrap-spaces.properties
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/15932/apps/aidoc/trunk/amp-aicore/src/main/resources/alfresco/messages/bootstrap-spaces.properties
+END
+webclient_en_US.properties
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/15932/apps/aidoc/trunk/amp-aicore/src/main/resources/alfresco/messages/webclient_en_US.properties
+END
+webclient.properties
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/15932/apps/aidoc/trunk/amp-aicore/src/main/resources/alfresco/messages/webclient.properties
+END

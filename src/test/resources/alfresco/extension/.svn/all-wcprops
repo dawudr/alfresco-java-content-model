@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/test/resources/alfresco/extension
+END
+file-servers-custom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/test/resources/alfresco/extension/file-servers-custom.xml
+END
+custom-repository-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/test/resources/alfresco/extension/custom-repository-context.xml
+END

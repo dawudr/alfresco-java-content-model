@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view:view xmlns:view="http://www.alfresco.org/view/repository/1.0">
+  <view:metadata>
+    <view:exportBy>admin</view:exportBy>
+    <view:exportDate>2007-07-19T16:58:17.529+01:00</view:exportDate>
+    <view:exporterVersion>2.1.0 (R1 443)</view:exporterVersion>
+    <view:exportOf>/app:company_home/app:dictionary/cm:webscripts/cm:org/cm:amnesty</view:exportOf>
+  </view:metadata>
+  <cm:folder xmlns:act="http://www.alfresco.org/model/action/1.0" xmlns:app="http://www.alfresco.org/model/application/1.0" xmlns:ver="http://www.alfresco.org/model/versionstore/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:wcm="http://www.alfresco.org/model/wcmmodel/1.0" xmlns:wcmwf="http://www.alfresco.org/model/wcmworkflow/1.0" xmlns:rule="http://www.alfresco.org/model/rule/1.0" xmlns:fm="http://www.alfresco.org/model/forum/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:alf="http://www.alfresco.org" xmlns:d="http://www.alfresco.org/model/dictionary/1.0" xmlns:view="http://www.alfresco.org/view/repository/1.0" xmlns:aicore="http://www.amnesty.org/model/aicore/1.0" xmlns:wf="http://www.alfresco.org/model/workflow/1.0" xmlns:usr="http://www.alfresco.org/model/user/1.0" xmlns:cm="http://www.alfresco.org/model/content/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:sys="http://www.alfresco.org/model/system/1.0" xmlns:wca="http://www.alfresco.org/model/wcmappmodel/1.0" xmlns:bpm="http://www.alfresco.org/model/bpm/1.0" xmlns:custom="custom.model" xmlns:reg="http://www.alfresco.org/system/registry/1.0" xmlns:module="http://www.alfresco.org/system/modules/1.0" xmlns="" view:childName="cm:amnesty">
+    <view:aspects>
+      <cm:auditable></cm:auditable>
+      <app:uifacets></app:uifacets>
+      <sys:referenceable></sys:referenceable>
+    </view:aspects>
+    <view:properties>
+      <cm:description></cm:description>
+      <app:icon>space-icon-default</app:icon>
+      <sys:node-uuid>ba9b2ac6-3610-11dc-9cf1-7343e6401639</sys:node-uuid>
+      <sys:node-dbid>1437</sys:node-dbid>
+      <cm:title>amnesty</cm:title>
+      <cm:created>2007-07-19T16:57:19.254+01:00</cm:created>
+      <cm:modifier>admin</cm:modifier>
+      <cm:modified>2007-07-19T16:57:19.269+01:00</cm:modified>
+      <cm:creator>admin</cm:creator>
+      <sys:store-protocol>workspace</sys:store-protocol>
+      <cm:name>amnesty</cm:name>
+      <sys:store-identifier>SpacesStore</sys:store-identifier>
+    </view:properties>
+  </cm:folder>
+</view:view>

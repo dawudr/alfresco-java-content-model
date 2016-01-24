@@ -1,0 +1,56 @@
+8
+
+dir
+16402
+https://svn.amnesty.org/repos/apps/aidoc/trunk/amp-aicore/test/web-service-client
+https://svn.amnesty.org/repos
+
+
+
+2007-09-27T21:47:47.019847Z
+12846
+INTSEC\x5cchatch
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1d66758f-4870-4244-a4cf-f140c9218451
+
+alfresco
+dir
+
+alfresco-web-service-client.jar
+file
+
+
+
+
+2010-11-18T23:24:03.680000Z
+105161e22ab001d9db2221e3086d5e0a
+2007-09-05T16:08:40.064999Z
+12682
+INTSEC\x5cchatch
+has-props
+
+readme.txt
+file
+
+
+
+
+2010-11-18T23:24:02.492000Z
+24b80699865581372351c72cac3eaf56
+2007-09-05T16:08:40.064999Z
+12682
+INTSEC\x5cchatch
+

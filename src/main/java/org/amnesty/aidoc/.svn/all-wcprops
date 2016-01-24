@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/16398/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/16398/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/Constants.java
+END
+aicoreConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/16398/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/aicoreConfig.java
+END
+Edition.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/15423/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/Edition.java
+END
+AiIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/15398/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/AiIndex.java
+END
+aicorePolicyAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/15706/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/aicorePolicyAction.java
+END
+Asset.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/15514/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/Asset.java
+END
+AiNodeServicePolicies.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/16398/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/AiNodeServicePolicies.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/15890/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/Util.java
+END
+NodeItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/15399/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/NodeItem.java
+END
+AssetRendition.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/15939/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/AssetRendition.java
+END
+Rendition.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/15800/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/Rendition.java
+END
+Document.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/15479/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/Document.java
+END
+AssetManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/15916/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/AssetManager.java
+END

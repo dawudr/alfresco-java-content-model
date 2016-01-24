@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+
+<beans>
+
+  <!-- enable DEBUG for 'org.alfresco.repo.cache.EhCacheTracerJob' and enable scheduler property to activate -->
+  <bean id="ehCacheTracerJob" class="org.alfresco.util.TriggerBean">
+    <property name="jobDetail">
+      <bean id="ehCacheTracerJobDetail"
+        class="org.springframework.scheduling.quartz.JobDetailBean">
+        <property name="jobClass">
+          <value>org.alfresco.repo.cache.EhCacheTracerJob</value>
+        </property>
+      </bean>
+    </property>
+    <!-- enable this to activate bean-->
+    <property name="scheduler">
+      <ref bean="schedulerFactory" />
+    </property>
+    <!-- -->
+    <!-- start after an hour and repeat hourly -->
+    <property name="startDelayMinutes">
+      <value>60</value>
+    </property>
+    <property name="repeatIntervalMinutes">
+      <value>60</value>
+    </property>
+  </bean>
+
+
+  <!--  Override then disable the indexBackupTrigger. See AIDOC-402 -->
+  <bean id="indexBackupTrigger"
+    class="org.alfresco.util.CronTriggerBean">
+    <property name="jobDetail">
+      <ref bean="indexBackupJobDetail" />
+    </property>
+    <!-- property name="scheduler">
+      <ref bean="schedulerFactory" />
+      </property-->
+    <!-- trigger at 3am each day -->
+    <property name="cronExpression">
+      <value>0 0 3 * * ?</value>
+    </property>
+  </bean>
+
+  <!--  Override then disable the contentStoreCleaner. See AIDOC-427 -->
+  <bean id="contentStoreCleanerTrigger"
+    class="org.alfresco.util.CronTriggerBean">
+    <property name="jobDetail">
+      <ref bean="contentStoreCleanerJobDetail" />
+    </property>
+    <!-- property name="scheduler">
+      <ref bean="schedulerFactory" />
+    </property-->
+    <!-- trigger at 4am each day -->
+    <property name="cronExpression">
+      <value>0 0 4 * * ?</value>
+    </property>
+  </bean>
+
+
+</beans>

@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc
+END
+status.get.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/status.get.xml.ftl
+END
+index.get.desc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/index.get.desc.xml
+END
+index.get.html.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/index.get.html.ftl
+END
+createtype.post.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/createtype.post.xml.ftl
+END
+createasset.post.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/createasset.post.xml.ftl
+END
+content.get.desc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/content.get.desc.xml
+END
+theme-meta.inc
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/theme-meta.inc
+END
+createasset.post.desc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/createasset.post.desc.xml
+END
+status.get.desc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/status.get.desc.xml
+END
+updatetype.post.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/updatetype.post.xml.ftl
+END
+asset.get.xml.404.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/asset.get.xml.404.ftl
+END
+categories.get.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/categories.get.xml.ftl
+END
+updateasset.post.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/updateasset.post.xml.ftl
+END
+theme-header.inc
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/theme-header.inc
+END
+updatetype.post.desc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/updatetype.post.desc.xml
+END
+asset.get.html.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/asset.get.html.ftl
+END
+theme-footer.inc
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/theme-footer.inc
+END
+assetsearch.get.html.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/assetsearch.get.html.ftl
+END
+assetsearch.get.desc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/assetsearch.get.desc.xml
+END
+categories.get.text.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/categories.get.text.ftl
+END
+categories.get.desc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/categories.get.desc.xml
+END
+updateasset.post.desc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/updateasset.post.desc.xml
+END
+createtype.post.desc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/createtype.post.desc.xml
+END
+asset.get.desc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/asset.get.desc.xml
+END
+categories.get.js
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/categories.get.js
+END
+asset.get.js
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/asset.get.js
+END
+asset.get.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/asset.get.xml.ftl
+END
+theme-left.inc
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/theme-left.inc
+END
+assetsearch.get.atom.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc/assetsearch.get.atom.ftl
+END

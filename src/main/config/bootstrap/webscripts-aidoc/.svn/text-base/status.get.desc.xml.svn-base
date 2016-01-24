@@ -1,0 +1,8 @@
+<webscript>
+  <shortname>System status</shortname>
+  <description>Show server status</description>
+  <url>/aidoc/status</url>
+  <format default="xml">argument</format>
+  <authentication>none</authentication>
+  <transaction>required</transaction>
+</webscript>

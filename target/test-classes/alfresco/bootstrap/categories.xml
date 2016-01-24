@@ -1,0 +1,2720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view:view xmlns:view="http://www.alfresco.org/view/repository/1.0" xmlns:sys="http://www.alfresco.org/model/system/1.0" xmlns:cm="http://www.alfresco.org/model/content/1.0">
+  <!--Generated on Tue Jul 24 16:13:59 BST 2007-->
+  <cm:category_root view:childName="cm:categoryRoot">
+    <view:acl>
+      <view:ace view:access="ALLOWED">
+        <view:authority>guest</view:authority>
+        <view:permission>Read</view:permission>
+      </view:ace>
+    </view:acl>
+    <cm:name>categories</cm:name>
+    <cm:categories>
+      <cm:category view:childName="cm:generalclassifiable">
+        <cm:name>General</cm:name>
+        <cm:subcategories>
+          <!-- Campaigns AKA Amnesty Campaigns-->
+          <cm:category>
+            <cm:name>Campaigns</cm:name>
+            <cm:subcategories>
+              <!--Current Campaigns-->
+              <cm:category>
+                <cm:name>Current Campaigns</cm:name>
+                <cm:subcategories>
+                  <cm:category>
+                    <cm:name>Beijing Olympics</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Control Arms</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Counter Terror with Justice</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Irrepressible.info</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Make Some Noise</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Stop Violence Against Women</cm:name>
+                  </cm:category>
+                </cm:subcategories>
+              </cm:category>
+              <!--Past Campaigns-->
+              <cm:category>
+                <cm:name>Past Campaigns</cm:name>
+                <cm:subcategories>
+                  <cm:category>
+                    <cm:name>Torture Campaign (2001)</cm:name>
+                  </cm:category>
+                </cm:subcategories>
+              </cm:category>
+              <!--Crisis Response-->
+              <cm:category>
+                <cm:name>Crisis Response</cm:name>
+                <cm:subcategories>
+                  <cm:category>
+                    <cm:name>Colombia Crisis Alert 2002</cm:name>
+                  </cm:category>
+                </cm:subcategories>
+              </cm:category>
+            </cm:subcategories>
+          </cm:category>
+          <!--Keywords AKA Amnesty Keywords-->
+          <cm:category>
+            <cm:name>Keywords</cm:name>
+            <cm:subcategories>
+              <!--AI Internal-->
+              <cm:category>
+                <cm:name>AI Internal</cm:name>
+                <cm:subcategories>
+                  <cm:category>
+                    <cm:name>Acceptance of funds</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Accountability</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Action files</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Addresses</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>AI and governments</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>AI appeals</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>AI committees</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>AI members</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>AI mobilization</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>AI non-london offices</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>AI planning</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>AI publications</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>AI publicity</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>AI recruitment</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>AI security</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>AI staff</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>AI techniques</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Annual report</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Audio-visual material</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Awards</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Bibliographies</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Campaigns</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Company approaches</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Concerts</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Coordination groups</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Country action programs</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Crisis response actions</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Cultural diversity</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Data protection</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Decentralization</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Equal opportunities</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Evaluation</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>FCC</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Finance</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Fund-raising</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Good news testimonies</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Government authorities</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Group level actions</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Group work</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Groupings</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Home government approaches</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>ICM</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>IEC</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Impartiality</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>IMST</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Information management</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Information technology</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>International meetings</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>International meetings - AI</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>IS</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Lawyers actions</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Lawyers groups</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Mandate</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>MEC</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Medical actions</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Medical bulletins</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Medical groups</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Membership training</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Missions</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>MSP</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Multiculturalism</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Multilingualism</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>No keyword</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Non-governmental organizations</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Outreach</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Outreach - LGBT</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Outreach - professional groups</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Outreach - women</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Outreach - youth</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Part entry</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Photographs</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Prisoners' lists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Questionnaires</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Questions and answers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Rapid response actions</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Recommended actions</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Regional action networks</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Relief</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Research techniques</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>SCHIFM</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>SCM</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>SCOD</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>SCRA</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>SDC</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Secretary general</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Section level actions</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Sections</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Statistics</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Statute</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Submissions</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Telecommunications</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Universality</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Urgent actions</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Work on own country</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Working rules</cm:name>
+                  </cm:category>
+                </cm:subcategories>
+              </cm:category>
+              <!--AI Organizational-->
+              <cm:category>
+                <cm:name>AI Organizational</cm:name>
+                <cm:subcategories>
+                  <cm:category>
+                    <cm:name>Speeches</cm:name>
+                  </cm:category>
+                </cm:subcategories>
+              </cm:category>
+              <!--Attribute-->
+              <cm:category>
+                <cm:name>Attribute</cm:name>
+                <cm:subcategories>
+                  <cm:category>
+                    <cm:name>Aged</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Children</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Conscientious objectors</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Disabled people</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Displaced people</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Environmentalists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Ethnic groups</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Families</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Foreign nationals</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Homeless people</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Homosexual rights activists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Human rights activists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Human rights defenders</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Indigenous peoples</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Infants</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Juveniles</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Migrant workers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Minorities</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Nomads</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Peace activists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Political activists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Refugees</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious groups</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious groups - Ahmadi</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious groups - Assyrian Christian</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious groups - Baha'i</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious groups - Baptist</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious groups - Buddhist</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious groups - Catholic</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious groups - Christian</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious groups - Falun Gong</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious groups - Hindu</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious groups - Islamic</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious groups - jehovah's witness</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious groups - Jewish</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious groups - Orthodox</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious groups - Protestant</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious groups - Sikh</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious officials</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious officials - Ahmadi</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious officials - Assyrian Christian</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious officials - Baha'i</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious officials - Buddhist</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious officials - Catholic</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious officials - Hindu</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious officials - Islamic</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious officials - jehovah's witness</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious officials - Jewish</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious officials - Orthodox</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious officials - Protestant</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Religious officials - Sikh</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Retired people</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Sexual orientation</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Squatters</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Stateless people</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Street children</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Trade unionists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Transgender issues</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Unemployed people</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Women</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Women's rights activists</cm:name>
+                  </cm:category>
+                </cm:subcategories>
+              </cm:category>
+              <!--Concern-->
+              <cm:category>
+                <cm:name>Concern</cm:name>
+                <cm:subcategories>
+                  <cm:category>
+                    <cm:name>Acknowledgement of detention</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Administrative detention</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Aid</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>AIDS-HIV</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Amnesties</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Amnesties for violators</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Amputation</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Arbitrary arrest</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Armed civilians</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Asylum</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Attacks</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Attempted abduction</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Attempted killing</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Banning</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Bomb attacks</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Bonded labour</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Censorship</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Child labour</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Civil defence</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Common criminals</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Commutation</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Companies</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Compensation</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Conditional release</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Confessions</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Continued detention</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Corporal punishment</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Cultural rights</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Death in custody</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Death penalty</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Death sentence</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Death threats</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Debt relief</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Defamation</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Denial of medical care</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Deportation</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Destruction of villages</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Detention for re-education</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Detention without trial</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Disablement</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Disappearances</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Domestic violence</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Economic conditions</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Education</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Electro-shock equipment</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Environment</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>ESCR</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Espionage</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Execution</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Exhumation</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Exile</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Extension of sentence</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Extortion</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Extradition</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Extrajudicial execution</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Extralegal courts</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Fear for safety</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Fear of amputation</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Fear of arrest as POC</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Fear of corporal punishment</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Fear of death sentence</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Fear of denial of medical care</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Fear of disappearance</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Fear of extrajudicial execution</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Fear of forcible exile</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Fear of imminent execution</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Fear of refoulement</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Fear of torture or ill-treatment</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Fear of unfair trial</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Female genital mutilation</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Food</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Forced evacuation</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Forced eviction</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Forced labour</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Forcible feeding</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Forcible recruitment</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Former governments</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Freedom of association</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Freedom of expression</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Habeas corpus</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Harassment</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Health</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Honour crimes</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Hostage taking</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>House destruction</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>House or town arrest</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Housing</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Human rights education</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Hunger-strike</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Ill-health</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Impunity</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Incommunicado detention</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Independence of judiciary</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Indiscriminate killings</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Internal exile</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Investigation of abuses</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Legal systems</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Long-term imprisonment</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Marriage</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Mass arrest</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Mass killing</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Medical confirmation</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Medical treatment</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Mental health</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Military</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Military police</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Military tribunals</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>National human rights commission</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Natural resources</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>NGE abduction</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Non-governmental entities</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Non-state actors</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Paramilitaries</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Pardons</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Penal institutions</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Police</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Police or military testimonies</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Political prisoners</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Politically motivated criminal charges</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Possible disappearance</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Possible extrajudicial execution</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Possible POC</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Post mortems</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Pregnancy</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Prison conditions</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Prison staff</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Prisoners of conscience</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Prisoners of war</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Prisoners' testimonies</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Private security guards</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Professional ethics</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Psychiatric abuse</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Psychiatric confinement</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Reappearance</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Rearrest</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Reduction of sentence</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Refoulement</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Release</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Rendition</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Reproductive rights</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Restraints</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Restriction on movement</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Retrials</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Sabotage</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Sanitation</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Second governments</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Sexual assault</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Sexual exploitation</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Sexual harassment</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Sexual rights</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Solitary confinement</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Stay of execution</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Strip-searching</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Surveillance</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Torture techniques</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Torture or ill-treatment</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Trafficking</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Treason</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Trial observation</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Trials</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Unacknowledged detention</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Universal jurisdiction</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Unlawful detention</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Unlawful killing</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Unlawful punishments</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Unlawful use of firearms</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Use of excessive force</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Violation after release</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Water</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Weapons of warfare</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Withdrawal of charges</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Witness testimonies</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Witnesses</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Work</cm:name>
+                  </cm:category>
+                </cm:subcategories>
+              </cm:category>
+              <!--Context-->
+              <cm:category>
+                <cm:name>Context</cm:name>
+                <cm:subcategories>
+                  <cm:category>
+                    <cm:name>Adverse discrimination</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Advocacy of hatred</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Anniversaries</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Armed conflict</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Civil disobedience</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Civil unrest</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Communal violence</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Conditionality</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Conscription</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Constitutional change</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Corruption</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Coups</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Crimes against humanity</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Demonstrations</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Drug trafficking</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Elections</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Emergency legislation</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Escapes</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Funerals</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Government change</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Land problems</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Legislation</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>National holidays</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Occupation</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Peace keeping</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Political background</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Political violence</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Prison violence</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Racial discrimination</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Recruitment of child soldiers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Referenda</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Revolutions</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Sanctions</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Strikes</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Use of force</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>War crimes</cm:name>
+                  </cm:category>
+                </cm:subcategories>
+              </cm:category>
+              <!--Genre-->
+              <cm:category>
+                <cm:name>Genre</cm:name>
+                <cm:subcategories>
+                  <cm:category>
+                    <cm:name>Action  or  event</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Advertisments</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Aerial photographs</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Amateur works</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Architectural photographs</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Artwork</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Awards of merit</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Badges</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Banners</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Cartoons</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Certificates</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Charts</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Cityscapes</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Clippings</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Covers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Daily life</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Everyday items</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Forensic photographs</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Greeting cards</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Group portraits</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Identification photographs</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Landscapes</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Maps</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Montages</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Photographic prints</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Portrait</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Posters</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Postmortem photographs</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Signs</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Silhouettes</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Simulations</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Space photographs</cm:name>
+                  </cm:category>
+                </cm:subcategories>
+              </cm:category>
+              <!--IGO-->
+              <cm:category>
+                <cm:name>IGO</cm:name>
+                <cm:subcategories>
+                  <cm:category>
+                    <cm:name>ACHPR</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>ACHR</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>ACP</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>African Charter On The Rights And Welfar</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>APEC</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Arab League</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>ASEAN</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>ASEM</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>CEDAW</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>CERD</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Commonwealth</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Council Of Europe</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>ECHR</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>ECOSOC</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>ECOWAS</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>EU</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Free Trade Agreements</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Geneva Convention</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Human Rights Instruments</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>IACHR</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>ICC</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>ICCPR</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>ICESCR</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>ICJ</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>ICRC</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>ILO</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>IMF</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Inter-governmental Organizations</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>International Committee Of Jurists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>International Tribunals</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>IPU</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Migrant Workers Convention</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>NATO</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>OAS</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>OAU</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>OSCE</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>SADC</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>UDHR</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>UN</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>UN Agencies</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>UN Commission On Human Rights</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>UN Committee Against Torture</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>UN Committee On Economic, Social And Cul</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>UN Committee On The Rights Of The Child</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>UN Convention Against Torture</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>UN Convention On The Rights Of The Child</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>UN Human Rights Council</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>UN Human Rights Committee</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>UN Security Council</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>UNESCO</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>UNHCHR</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>UNHCR</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>UNICEF</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>WCC</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>WHO</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>World Bank</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>World Trade Organization</cm:name>
+                  </cm:category>
+                </cm:subcategories>
+              </cm:category>
+              <!--Occupation-->
+              <cm:category>
+                <cm:name>Occupation</cm:name>
+                <cm:subcategories>
+                  <cm:category>
+                    <cm:name>Academics</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Accountants</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Actors</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Anthropologists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Architects</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Armed civilians as victims</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Artisans</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Artists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Broadcasters</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Business people</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Cabin crew</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Child soldiers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Civil defence as victims</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Civil servants</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Clerical workers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Comedians</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Community leaders</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Community workers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Computer staff</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Conductors</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Construction workers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Dancers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Dentists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Designers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Diplomatic staff</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Directors</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Doctors</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Domestic workers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Drivers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Economists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Editors</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Engineers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Factory workers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Faith healers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Farm workers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Farmers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Fishermen</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Foresters</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Government ministers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Health workers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Herbalists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Homeopaths</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Horticulturalists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Housewives</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Journalists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Judges</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Lawyers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Legal workers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Librarians</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Local government employees</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Local government representatives</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Managers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Manual workers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Military as victims</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Military police as victims</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Miners</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Museum curators</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Musicians</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Non-governmental entities as victims</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Nurses</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Occupational therapists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Oil or petroleum workers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Opposition politicians</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Opticians</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Paramilitaries as victims</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Parliamentarians</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Peasant leaders</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Peasants</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Pharmacists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Photographers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Physiotherapists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Pilots</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Police as victims</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Politicians</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Printers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Prison staff as victims</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Private security guards as victims</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Producers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Psychiatrists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Psychologists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Publishers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Refugee workers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Relief workers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Retail workers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Sailors</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Schoolchildren</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Scientists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Shop-keepers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Social workers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Sociologists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Speech therapists</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Sports personalities</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Students</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Teachers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Technicians</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Tenant farmers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Tourist industry workers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Traders</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Traditional healers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Translators</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Veterinary surgeons</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Voluntary workers</cm:name>
+                  </cm:category>
+                  <cm:category>
+                    <cm:name>Writers</cm:name>
+                  </cm:category>
+                </cm:subcategories>
+              </cm:category>
+            </cm:subcategories>
+          </cm:category>
+          <!--Issues AKA Themes-->
+          <cm:category>
+            <cm:name>Issues</cm:name>
+            <cm:subcategories>
+              <cm:category>
+                <cm:name>Activists</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Armed Conflict</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Armed Groups</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Business And Human Rights</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Children</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Crimes Against Humanity And War Crimes</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Death In Custody</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Death Penalty</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Detention</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Disappearances And Abductions</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Discrimination</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Economic, Social and Cultural Rights</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Extrajudicial Executions And Other Unlawful Killings</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Freedom Of Expression</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Human Rights Standards</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Impunity</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Indigenous peoples</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>International Justice</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>International Organizations</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Law Enforcement</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Medical And Health</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Military, Security And Police Equipment</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Poverty</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Prison Conditions</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Prisoners Of Conscience</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Refugees, Displaced People And Migrants</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Sexual Orientation and Gender Identity</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Torture And Ill-treatment</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Trials And Legal Systems</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>United Nations</cm:name>
+              </cm:category>
+              <cm:category>
+                <cm:name>Women</cm:name>
+              </cm:category>
+            </cm:subcategories>
+          </cm:category>
+          <!--Regions-->
+          <cm:category>
+            <cm:name>Regions</cm:name>
+            <cm:subcategories>
+              <!--Africa-->
+              <cm:category>
+                <cm:name>Africa</cm:name>
+                <cm:subcategories>
+                  <!--Central Africa-->
+                  <cm:category>
+                    <cm:name>Central Africa</cm:name>
+                    <cm:subcategories>
+                      <cm:category>
+                        <cm:name>Burundi</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Cameroon</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Central African Republic</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Chad</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Comoros</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Congo</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Democratic Republic Of Congo</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Equatorial Guinea</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Gabon</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Rwanda</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Sao Tome And Principe</cm:name>
+                      </cm:category>
+                    </cm:subcategories>
+                  </cm:category>
+                  <!--East Africa-->
+                  <cm:category>
+                    <cm:name>East Africa</cm:name>
+                    <cm:subcategories>
+                      <cm:category>
+                        <cm:name>Djibouti</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Eritrea</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Ethiopia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Kenya</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Madagascar</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Mauritius</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Somalia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Sudan</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Tanzania</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Uganda</cm:name>
+                      </cm:category>
+                    </cm:subcategories>
+                  </cm:category>
+                  <!--Southern Africa-->
+                  <cm:category>
+                    <cm:name>Southern Africa</cm:name>
+                    <cm:subcategories>
+                      <cm:category>
+                        <cm:name>Angola</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Botswana</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Lesotho</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Malawi</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Mozambique</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Namibia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Reunion</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Seychelles</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>South Africa</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Swaziland</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Zambia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Zimbabwe</cm:name>
+                      </cm:category>
+                    </cm:subcategories>
+                  </cm:category>
+                  <!--West Africa-->
+                  <cm:category>
+                    <cm:name>West Africa</cm:name>
+                    <cm:subcategories>
+                      <cm:category>
+                        <cm:name>Benin</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Burkina Faso</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Cape Verde</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Cote D'ivoire</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Gambia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Ghana</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Guinea</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Guinea-bissau</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Liberia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Mali</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Mauritania</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Niger</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Nigeria</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Senegal</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Sierra Leone</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Togo</cm:name>
+                      </cm:category>
+                    </cm:subcategories>
+                  </cm:category>
+                </cm:subcategories>
+              </cm:category>
+              <!--Americas-->
+              <cm:category>
+                <cm:name>Americas</cm:name>
+                <cm:subcategories>
+                  <!--Caribbean-->
+                  <cm:category>
+                    <cm:name>Caribbean</cm:name>
+                    <cm:subcategories>
+                      <cm:category>
+                        <cm:name>Anguilla</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Antigua &amp; Barbuda</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Antilles</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Aruba</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Bahamas</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Barbados</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Bermuda</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Cayman Islands</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Cuba</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Dominica</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Dominican Republic</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Grenada</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Guadeloupe</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Haiti</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Jamaica</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Martinique</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Montserrat</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Puerto Rico</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>St Kitts-nevis</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>St Lucia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>St Vincent</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Trinidad &amp; Tobago</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Turks &amp; Caicos Islands</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Virgin Islands (UK)</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Virgin Islands (US)</cm:name>
+                      </cm:category>
+                    </cm:subcategories>
+                  </cm:category>
+                  <!--Central America-->
+                  <cm:category>
+                    <cm:name>Central America</cm:name>
+                    <cm:subcategories>
+                      <cm:category>
+                        <cm:name>Belize</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Costa Rica</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>El Salvador</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Guatemala</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Honduras</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Mexico</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Nicaragua</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Panama</cm:name>
+                      </cm:category>
+                    </cm:subcategories>
+                  </cm:category>
+                  <!--North America-->
+                  <cm:category>
+                    <cm:name>North America</cm:name>
+                    <cm:subcategories>
+                      <cm:category>
+                        <cm:name>Canada</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>USA</cm:name>
+                      </cm:category>
+                    </cm:subcategories>
+                  </cm:category>
+                  <!--South America-->
+                  <cm:category>
+                    <cm:name>South America</cm:name>
+                    <cm:subcategories>
+                      <cm:category>
+                        <cm:name>Argentina</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Bolivia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Brazil</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Chile</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Colombia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Ecuador</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Falkland Islands</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>French Guiana</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Guyana</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Paraguay</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Peru</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Suriname</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Uruguay</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Venezuela</cm:name>
+                      </cm:category>
+                    </cm:subcategories>
+                  </cm:category>
+                </cm:subcategories>
+              </cm:category>
+              <!--Asia And The Pacific-->
+              <cm:category>
+                <cm:name>Asia And The Pacific</cm:name>
+                <cm:subcategories>
+                  <!--East Asia-->
+                  <cm:category>
+                    <cm:name>East Asia</cm:name>
+                    <cm:subcategories>
+                      <cm:category>
+                        <cm:name>China</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Hong Kong</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Japan</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Macao</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Mongolia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>North Korea</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>South Korea</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Taiwan</cm:name>
+                      </cm:category>
+                    </cm:subcategories>
+                  </cm:category>
+                  <!--South Asia-->
+                  <cm:category>
+                    <cm:name>South Asia</cm:name>
+                    <cm:subcategories>
+                      <cm:category>
+                        <cm:name>Afghanistan</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Bangladesh</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Bhutan</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>India</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Maldives</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Nepal</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Pakistan</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Sri Lanka</cm:name>
+                      </cm:category>
+                    </cm:subcategories>
+                  </cm:category>
+                  <!--South-east Asia-->
+                  <cm:category>
+                    <cm:name>South-east Asia</cm:name>
+                    <cm:subcategories>
+                      <cm:category>
+                        <cm:name>American Samoa</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Australia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Brunei Darussalam</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Cambodia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Cook Islands</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Fiji</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>French Polynesia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Guam</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Indonesia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Kiribati</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Laos</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Malaysia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Marshall Islands</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Micronesia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Myanmar</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Nauru</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>New Caledonia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>New Zealand</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Niue</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Palau</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Papua New Guinea</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Philippines</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Pitcairn Islands</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Singapore</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Solomon Islands</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Thailand</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Timor Leste</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Tonga</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Tuvalu</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Vanuatu</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Viet Nam</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Western Samoa</cm:name>
+                      </cm:category>
+                    </cm:subcategories>
+                  </cm:category>
+                </cm:subcategories>
+              </cm:category>
+              <!--Europe And Central Asia-->
+              <cm:category>
+                <cm:name>Europe And Central Asia</cm:name>
+                <cm:subcategories>
+                  <!--Baltic States-->
+                  <cm:category>
+                    <cm:name>Baltic States</cm:name>
+                    <cm:subcategories>
+                      <cm:category>
+                        <cm:name>Estonia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Latvia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Lithuania</cm:name>
+                      </cm:category>
+                    </cm:subcategories>
+                  </cm:category>
+                  <!--Eurasia -->
+                  <cm:category>
+                    <cm:name>Eurasia</cm:name>
+                    <cm:subcategories>
+                      <cm:category>
+                        <cm:name>Armenia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Azerbaijan</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Belarus</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Georgia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Kazakstan</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Kyrgyzstan</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Moldova</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Tajikistan</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Turkmenistan</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Ukraine</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Uzbekistan</cm:name>
+                      </cm:category>
+                    </cm:subcategories>
+                  </cm:category>
+                  <!--Eastern Europe-->
+                  <cm:category>
+                    <cm:name>Eastern Europe</cm:name>
+                    <cm:subcategories>
+                      <cm:category>
+                        <cm:name>Czech Republic</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Hungary</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Poland</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Romania</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Russian Federation</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Slovak Republic</cm:name>
+                      </cm:category>
+                    </cm:subcategories>
+                  </cm:category>
+                  <!--Balkans-->
+                  <cm:category>
+                    <cm:name>Balkans</cm:name>
+                    <cm:subcategories>
+                      <cm:category>
+                        <cm:name>Albania</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Bosnia-herzegovina</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Bulgaria</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Croatia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Cyprus</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Greece</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Macedonia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Montenegro</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Serbia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Slovenia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Turkey</cm:name>
+                      </cm:category>
+                    </cm:subcategories>
+                  </cm:category>
+                  <!--Western Europe-->
+                  <cm:category>
+                    <cm:name>Western Europe</cm:name>
+                    <cm:subcategories>
+                      <cm:category>
+                        <cm:name>Andorra</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Austria</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Belgium</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Denmark</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Faroe Islands</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Finland</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>France</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Germany</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Gibraltar</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Greenland</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Iceland</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Ireland</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Italy</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Liechtenstein</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Luxembourg</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Malta</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Monaco</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Netherlands</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Norway</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Portugal</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>San Marino</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Spain</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Sweden</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Switzerland</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>UK</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Vatican</cm:name>
+                      </cm:category>
+                    </cm:subcategories>
+                  </cm:category>
+                </cm:subcategories>
+              </cm:category>
+              <!--Middle East And North Africa-->
+              <cm:category>
+                <cm:name>Middle East And North Africa</cm:name>
+                <cm:subcategories>
+                  <!--East Gulf-->
+                  <cm:category>
+                    <cm:name>East Gulf</cm:name>
+                    <cm:subcategories>
+                      <cm:category>
+                        <cm:name>Bahrain</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Iran</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Iraq</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Kuwait</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>UAE</cm:name>
+                      </cm:category>
+                    </cm:subcategories>
+                  </cm:category>
+                  <!--West Gulf-->
+                  <cm:category>
+                    <cm:name>West Gulf</cm:name>
+                    <cm:subcategories>
+                      <cm:category>
+                        <cm:name>Oman</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Qatar</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Saudi Arabia</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Yemen</cm:name>
+                      </cm:category>
+                    </cm:subcategories>
+                  </cm:category>
+                  <!--East Mediterranean-->
+                  <cm:category>
+                    <cm:name>East Mediterranean</cm:name>
+                    <cm:subcategories>
+                      <cm:category>
+                        <cm:name>Israel ~ Occupied Territories</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Jordan</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Lebanon</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Palestinian Authority</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Syria</cm:name>
+                      </cm:category>
+                    </cm:subcategories>
+                  </cm:category>
+                  <!--North Africa-->
+                  <cm:category>
+                    <cm:name>North Africa</cm:name>
+                    <cm:subcategories>
+                      <cm:category>
+                        <cm:name>Algeria</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Egypt</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Libya</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Morocco</cm:name>
+                      </cm:category>
+                      <cm:category>
+                        <cm:name>Tunisia</cm:name>
+                      </cm:category>
+                    </cm:subcategories>
+                  </cm:category>
+                </cm:subcategories>
+              </cm:category>
+            </cm:subcategories>
+          </cm:category>
+        </cm:subcategories>
+      </cm:category>
+    </cm:categories>
+  </cm:category_root>
+</view:view>

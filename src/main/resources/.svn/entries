@@ -1,0 +1,70 @@
+8
+
+dir
+16402
+https://svn.amnesty.org/repos/apps/aidoc/trunk/amp-aicore/src/main/resources
+https://svn.amnesty.org/repos
+
+
+
+2010-11-18T15:59:02.666327Z
+16397
+drahman
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1d66758f-4870-4244-a4cf-f140c9218451
+
+aicore.properties
+file
+
+
+
+
+2010-11-18T23:24:22.816000Z
+317041230e3e145d788711db5f7ef0f2
+2010-11-18T15:58:11.710574Z
+16396
+drahman
+has-props
+
+alfresco
+dir
+
+keyword_corrections.xml
+file
+
+
+
+
+2010-11-18T23:24:23.041000Z
+22b94f9f60e0f8299747003e2af5e7cc
+2009-11-13T16:30:36.530134Z
+15409
+
+has-props
+
+keyword_issue.xml
+file
+
+
+
+
+2010-11-18T23:24:22.798000Z
+ddcfcd52cbc164e8e69d1ad7ac50da62
+2009-11-13T16:30:36.530134Z
+15409
+
+has-props
+

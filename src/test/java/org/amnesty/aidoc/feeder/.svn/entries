@@ -1,0 +1,54 @@
+8
+
+dir
+16402
+https://svn.amnesty.org/repos/apps/aidoc/trunk/amp-aicore/src/test/java/org/amnesty/aidoc/feeder
+https://svn.amnesty.org/repos
+
+
+
+2010-05-11T14:54:20.258541Z
+15864
+drahman
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1d66758f-4870-4244-a4cf-f140c9218451
+
+ContentFeedBuilderTest.java
+file
+
+
+
+
+2010-11-18T23:24:10.830000Z
+91ab0fce52b51afe6228daa058e3c0e8
+2010-05-11T14:54:20.258541Z
+15864
+drahman
+has-props
+
+GsaFeedergateClientTest.java
+file
+
+
+
+
+2010-11-18T23:24:10.848000Z
+0132c78913cbbda13441b5574ad1cb93
+2010-05-11T14:54:20.258541Z
+15864
+drahman
+has-props
+

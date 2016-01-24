@@ -1,0 +1,52 @@
+8
+
+dir
+16402
+https://svn.amnesty.org/repos/apps/aidoc/trunk/amp-aicore/test/java/org/amnesty/aidoc/search
+https://svn.amnesty.org/repos
+
+
+
+2008-01-21T12:00:31.750000Z
+13378
+INTSEC\x5cdrand
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1d66758f-4870-4244-a4cf-f140c9218451
+
+AidocSearchQueryStringParserTest.java
+file
+
+
+
+
+2010-11-18T23:24:02.019000Z
+aa781c0a26fa10e8f16629e42f238e13
+2008-01-21T12:00:31.750000Z
+13378
+INTSEC\x5cdrand
+
+AidocSearchTest.java
+file
+
+
+
+
+2010-11-18T23:24:02.029000Z
+86cb2b9ccb6cd388d85db4a549af95c2
+2007-10-02T20:30:15.056015Z
+12880
+INTSEC\x5cchatch
+

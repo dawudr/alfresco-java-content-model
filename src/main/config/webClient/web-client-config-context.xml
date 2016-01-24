@@ -1,0 +1,264 @@
+<alfresco-config>
+
+  <config evaluator="string-compare" condition="Views">
+    <!-- the views available in the client -->
+    <views>
+      <!-- default values for the views available in the client -->
+      <view-defaults>
+        <browse>
+          <!-- allowable values: list|details|icons -->
+          <view>list</view>
+          <page-size>
+            <list>10</list>
+            <details>10</details>
+            <icons>9</icons>
+          </page-size>
+        </browse>
+      </view-defaults>
+    </views>
+  </config>
+
+  <config evaluator="string-compare" condition="Action Wizards"
+    replace="false">
+    <aspects>
+      <aspect name="aicore:autovalidatable" />
+    </aspects>
+    <!-- List of aspects to only show in the add features action -->
+    <aspects-add></aspects-add>
+    <!-- List of aspects to only show in the remove features action -->
+    <aspects-remove></aspects-remove>
+    <aspects-test></aspects-test>
+    <transformers>
+      <!-- AIDOC-82 -->
+      <transformer name="application/xhtml+xml" />
+    </transformers>
+    <subtypes>
+      <!-- Folder types -->
+      <type name="aicore:Asset" />
+      <type name="aicore:Edition" />
+      <!-- Document types -->
+      <type name="aicore:Document" />
+      <type name="aicore:Report" />
+      <type name="aicore:ActionDocument" />
+      <type name="aicore:UrgentAction" />
+      <type name="aicore:PressRelease" />
+      <type name="aicore:Newsletter" />
+      <type name="aicore:PressItem" />
+      <type name="aicore:PublicStatement" />
+      <type name="aicore:OpenLetter" />
+      <type name="aicore:MedicalAction" />
+      <type name="aicore:Postcard" />
+      <type name="aicore:Calendar" />
+      <type name="aicore:Poster" />
+      <type name="aicore:PolicyDocument" />
+      <type name="aicore:QuestionsAndAnswers" />
+      <!-- Subtypes -->
+      <!-- type name="aicore:MajorReport" />
+        <type name="aicore:MediaBriefing" />
+        <type name="aicore:MediaAdvisory" /-->
+      <!-- Report types -->
+      <type name="aicore:Appendix" />
+      <type name="aicore:Cover" />
+      <type name="aicore:Contents" />
+      <type name="aicore:Pinksheet" />
+      <type name="aicore:Summary" />
+    </subtypes>
+    <specialise-types>
+      <!-- Folder types -->
+      <type name="aicore:Asset" />
+      <type name="aicore:Edition" />
+      <!-- Document types -->
+      <type name="aicore:Document" />
+      <type name="aicore:Report" />
+      <type name="aicore:ActionDocument" />
+      <type name="aicore:UrgentAction" />
+      <type name="aicore:PressRelease" />
+      <type name="aicore:Newsletter" />
+      <type name="aicore:PressItem" />
+      <type name="aicore:PublicStatement" />
+      <type name="aicore:OpenLetter" />
+      <type name="aicore:MedicalAction" />
+      <type name="aicore:Postcard" />
+      <type name="aicore:Calendar" />
+      <type name="aicore:Poster" />
+      <type name="aicore:PolicyDocument" />
+      <type name="aicore:QuestionsAndAnswers" />
+      <!-- Subtypes -->
+      <!-- type name="aicore:MajorReport" />
+        <type name="aicore:MediaBriefing" />
+        <type name="aicore:MediaAdvisory" /-->
+      <!-- Report types -->
+      <type name="aicore:Appendix" />
+      <type name="aicore:Cover" />
+      <type name="aicore:Contents" />
+      <type name="aicore:Pinksheet" />
+      <type name="aicore:Summary" />
+    </specialise-types>
+  </config>
+
+  <config evaluator="string-compare" condition="Content Wizards"
+    replace="false">
+    <!-- The list of custom content types to show in the content wizards -->
+    <content-types>
+      <!-- Document types -->
+      <type name="aicore:Document" />
+      <type name="aicore:Report" />
+      <type name="aicore:ActionDocument" />
+      <type name="aicore:UrgentAction" />
+      <type name="aicore:PressRelease" />
+      <type name="aicore:Newsletter" />
+      <type name="aicore:PressItem" />
+      <type name="aicore:PublicStatement" />
+      <type name="aicore:OpenLetter" />
+      <type name="aicore:MedicalAction" />
+      <type name="aicore:Postcard" />
+      <type name="aicore:Calendar" />
+      <type name="aicore:Poster" />
+      <type name="aicore:PolicyDocument" />
+      <type name="aicore:QuestionsAndAnswers" />
+      <!-- Report part types -->
+      <type name="aicore:Appendix" />
+      <type name="aicore:Cover" />
+      <type name="aicore:Contents" />
+      <type name="aicore:Pinksheet" />
+      <type name="aicore:Summary" />
+    </content-types>
+
+    <!-- The list of mime types that can be created inline -->
+    <create-mime-types>
+      <mime-type name="text/html" />
+      <mime-type name="text/plain" />
+      <mime-type name="text/xml" />
+    </create-mime-types>
+
+    <!-- Controls the message regarding property editing after the content is created -->
+    <other-properties user-choice-visible="false"
+      user-choice-default="true" />
+  </config>
+
+  <config evaluator="string-compare" condition="Space Wizards"
+    replace="false">
+    <folder-types>
+      <type name="aicore:Asset" />
+      <type name="aicore:Edition" />
+    </folder-types>
+  </config>
+
+  <config evaluator="string-compare" condition="Advanced Search"
+    replace="true">
+    <!-- advanced search custom attribute config -->
+    <!-- see http://wiki.alfresco.com/wiki/Advanced_Search_Custom_Attributes -->
+    <advanced-search>
+      <!-- type constraint drop-down -->
+      <content-types>
+        <!-- cm:content type is implicit in this list -->
+        <!-- types must extend cm:content for display in the Alfresco web-client -->
+        <!-- Main types -->
+        <type name="aicore:Document" />
+        <type name="aicore:Report" />
+        <type name="aicore:ActionDocument" />
+        <type name="aicore:UrgentAction" />
+        <type name="aicore:PressRelease" />
+        <type name="aicore:Newsletter" />
+        <type name="aicore:PressItem" />
+      	<type name="aicore:PublicStatement" />
+      	<type name="aicore:OpenLetter" />
+      	<type name="aicore:MedicalAction" />
+      	<type name="aicore:Postcard" />
+      	<type name="aicore:Calendar" />
+      	<type name="aicore:Poster" />
+      	<type name="aicore:PolicyDocument" />
+      	<type name="aicore:QuestionsAndAnswers" />
+      </content-types>
+      <folder-types>
+        <!-- cm:folder type is implicit in this list -->
+        <!-- types must extend cm:folder for display in the Alfresco web-client -->
+        <type name="aicore:Asset" />
+      </folder-types>
+      <custom-properties>
+        <meta-data aspect="cm:effectivity" property="cm:from" />
+        <meta-data aspect="cm:effectivity" property="cm:to" />
+        <meta-data aspect="aicore:aiIndexed" property="aicore:aiIndex" />
+        <meta-data aspect="aicore:autovalidatable"
+          property="aicore:invalidated" />
+      </custom-properties>
+    </advanced-search>
+  </config>
+
+  <config evaluator="node-type" condition="aicore:Asset">
+    <property-sheet>
+      <show-property name="aicore:publishDate" />
+    </property-sheet>
+  </config>
+
+  <config evaluator="aspect-name"
+    condition="aicore:securityClassifiable">
+    <property-sheet>
+      <show-property name="aicore:securityClass" />
+    </property-sheet>
+  </config>
+  
+  <config evaluator="aspect-name"
+    condition="aicore:withdrawable">
+    <property-sheet>
+      <show-property name="aicore:withdrawn" />
+    </property-sheet>
+  </config>
+  
+  <config evaluator="aspect-name" condition="aicore:publishable">
+    <property-sheet>
+      <show-property name="aicore:publishDate" />
+    </property-sheet>
+  </config>
+
+  <config evaluator="aspect-name" condition="aicore:aiIndexed">
+    <property-sheet>
+      <show-property name="aicore:aiIndex" show-in-edit-mode="false" />
+    </property-sheet>
+    <property-sheet>
+      <show-property name="aicore:aiIndexType" show-in-edit-mode="false" />
+    </property-sheet>
+    <property-sheet>
+      <show-property name="aicore:aiTitle" show-in-edit-mode="true" />
+    </property-sheet>
+    <property-sheet>
+      <show-property name="aicore:aiDescription" show-in-edit-mode="false" />
+    </property-sheet>
+    <property-sheet>
+      <show-property name="aicore:aiIndexStatus" show-in-edit-mode="false" />
+    </property-sheet>
+    <property-sheet>
+      <show-property name="aicore:aiIndexModified" show-in-edit-mode="false" />
+    </property-sheet>
+    <property-sheet>
+      <show-property name="aicore:requestedBy" show-in-edit-mode="false" />
+    </property-sheet>
+    <property-sheet>
+      <show-property name="aicore:network" show-in-edit-mode="false" />
+    </property-sheet>
+    <property-sheet>
+      <show-property name="aicore:networkNumber" show-in-edit-mode="false" />
+    </property-sheet>
+  </config>
+  
+  <config evaluator="aspect-name" condition="aicore:itemStatusFlags">
+    <property-sheet>
+      <show-property name="aicore:searchcopy" show-in-edit-mode="false" />
+    </property-sheet>
+  </config>
+
+  <config evaluator="aspect-name" condition="aicore:autovalidatable">
+    <property-sheet>
+      <show-property name="aicore:invalidated"
+        show-in-view-mode="false" />
+    </property-sheet>
+  </config>
+  
+  <config evaluator="aspect-name"
+    condition="aicore:feedPublishable">
+    <property-sheet>
+      <show-property name="aicore:feedPublishedStatus" />
+    </property-sheet>
+  </config>  
+
+</alfresco-config>

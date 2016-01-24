@@ -1,0 +1,8 @@
+<webscript>
+  <shortname>Create Asset Type</shortname>
+  <description>This service creates a new asset type given an ai index, edition, type, file and metadata.</description>
+  <url>/aidoc/createtype</url>
+  <format default="xml">extension</format>
+  <authentication>guest</authentication>
+  <transaction>required</transaction>
+</webscript>

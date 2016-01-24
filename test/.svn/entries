@@ -1,0 +1,40 @@
+8
+
+dir
+16402
+https://svn.amnesty.org/repos/apps/aidoc/trunk/amp-aicore/test
+https://svn.amnesty.org/repos
+
+
+
+2009-11-13T16:32:24.803846Z
+15418
+
+has-props
+
+svn:special svn:externals svn:needs-lock
+svn:externals
+
+
+
+
+
+
+
+
+
+
+1d66758f-4870-4244-a4cf-f140c9218451
+
+java
+dir
+
+resources
+dir
+
+web
+dir
+
+web-service-client
+dir
+

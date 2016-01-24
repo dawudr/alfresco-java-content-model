@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view:view xmlns:view="http://www.alfresco.org/view/repository/1.0">
+  <view:metadata>
+    <view:exportBy>admin</view:exportBy>
+    <view:exportDate>2007-04-26T19:44:46.230+08:00</view:exportDate>
+    <view:exporterVersion>2.0.0 (build-185)</view:exporterVersion>
+    <view:exportOf>/app:company_home/cm:Asset_x0020_Library</view:exportOf>
+  </view:metadata>
+  <cm:folder xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:alf="http://www.alfresco.org" xmlns:d="http://www.alfresco.org/model/dictionary/1.0" xmlns:view="http://www.alfresco.org/view/repository/1.0" xmlns:act="http://www.alfresco.org/model/action/1.0" xmlns:rma="http://www.alfresco.org/model/record/1.0" xmlns:wf="http://www.alfresco.org/model/workflow/1.0" xmlns:app="http://www.alfresco.org/model/application/1.0" xmlns:ver="http://www.alfresco.org/model/versionstore/1.0" xmlns:usr="http://www.alfresco.org/model/user/1.0" xmlns:cm="http://www.alfresco.org/model/content/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:wcm="http://www.alfresco.org/model/wcmmodel/1.0" xmlns:wca="http://www.alfresco.org/model/wcmappmodel/1.0" xmlns:sys="http://www.alfresco.org/model/system/1.0" xmlns:wcmwf="http://www.alfresco.org/model/wcmworkflow/1.0" xmlns:rule="http://www.alfresco.org/model/rule/1.0" xmlns:fm="http://www.alfresco.org/model/forum/1.0" xmlns:bpm="http://www.alfresco.org/model/bpm/1.0" xmlns:custom="custom.model" xmlns="" view:childName="cm:Asset Library">
+    <view:aspects>
+      <cm:auditable></cm:auditable>
+      <app:uifacets></app:uifacets>
+      <sys:referenceable></sys:referenceable>
+    </view:aspects>
+    <view:properties>
+      <cm:description></cm:description>
+      <app:icon>space-icon-star</app:icon>
+      <sys:node-uuid>2490d561-f3ea-11db-bf9e-952904a09dc6</sys:node-uuid>
+      <sys:node-dbid>503</sys:node-dbid>
+      <cm:title>Asset Library</cm:title>
+      <cm:created>2007-04-26T19:34:50.033+08:00</cm:created>
+      <cm:modifier>admin</cm:modifier>
+      <cm:modified>2007-04-26T19:42:44.475+08:00</cm:modified>
+      <cm:creator>admin</cm:creator>
+      <sys:store-protocol>workspace</sys:store-protocol>
+      <cm:name>Asset Library</cm:name>
+      <sys:store-identifier>SpacesStore</sys:store-identifier>
+    </view:properties>
+    <view:associations>
+      <cm:contains>
+        <cm:folder view:childName="cm:StillImage Assets">
+          <view:aspects>
+            <cm:auditable></cm:auditable>
+            <app:uifacets></app:uifacets>
+            <sys:referenceable></sys:referenceable>
+          </view:aspects>
+          <view:properties>
+            <cm:description></cm:description>
+            <app:icon>space-icon-image</app:icon>
+            <sys:node-uuid>20201903-f3eb-11db-bf9e-952904a09dc6</sys:node-uuid>
+            <sys:node-dbid>505</sys:node-dbid>
+            <cm:title>StillImage Assets</cm:title>
+            <cm:created>2007-04-26T19:41:52.040+08:00</cm:created>
+            <cm:modifier>admin</cm:modifier>
+            <cm:modified>2007-04-26T19:42:08.614+08:00</cm:modified>
+            <cm:creator>admin</cm:creator>
+            <sys:store-protocol>workspace</sys:store-protocol>
+            <cm:name>StillImage Assets</cm:name>
+            <sys:store-identifier>SpacesStore</sys:store-identifier>
+          </view:properties>
+          <view:associations></view:associations>
+        </cm:folder>
+        <cm:folder view:childName="cm:Indexed Documents">
+          <view:aspects>
+            <cm:auditable></cm:auditable>
+            <app:uifacets></app:uifacets>
+            <sys:referenceable></sys:referenceable>
+          </view:aspects>
+          <view:properties>
+            <cm:description></cm:description>
+            <app:icon>space-icon-pen</app:icon>
+            <sys:node-uuid>3f5041ae-f3eb-11db-bf9e-952904a09dc6</sys:node-uuid>
+            <sys:node-dbid>506</sys:node-dbid>
+            <cm:title>Indexed Documents</cm:title>
+            <cm:created>2007-04-26T19:42:44.325+08:00</cm:created>
+            <cm:modifier>admin</cm:modifier>
+            <cm:modified>2007-04-26T19:42:44.465+08:00</cm:modified>
+            <cm:creator>admin</cm:creator>
+            <sys:store-protocol>workspace</sys:store-protocol>
+            <cm:name>Indexed Documents</cm:name>
+            <sys:store-identifier>SpacesStore</sys:store-identifier>
+          </view:properties>
+          <view:associations></view:associations>
+        </cm:folder>
+      </cm:contains>
+    </view:associations>
+  </cm:folder>
+</view:view>

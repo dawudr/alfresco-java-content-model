@@ -1,0 +1,8 @@
+<webscript>
+  <shortname>XSLT template - 404</shortname>
+  <description>XSLT template - 404</description>
+  <url>/aidoc/xslt/404</url>
+  <format default="xml">argument</format>
+  <authentication>guest</authentication>
+  <transaction>required</transaction>
+</webscript>

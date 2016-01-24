@@ -1,0 +1,7 @@
+<!--v6.0FooterLinks: START-->
+<div align="center"><br />
+
+<br /> <p class="small"> <a href="http://www.amnesty.org/aboutai">ABOUT AI</a> <img src="http://www.amnesty.org/images/vertical_bar.gif" width="3" height="7" alt="" border="0" /> <a href="http://www.amnesty.org/news">NEWS</a> <img src="http://www.amnesty.org/images/vertical_bar.gif" width="3" height="7" alt="" border="0" /> <a href="http://www.amnesty.org/library">LIBRARY</a> <img src="http://www.amnesty.org/images/vertical_bar.gif" width="3" height="7" alt="" border="0" /> <a href="http://www.amnesty.org/actnow">ACT NOW</a> <img src="http://www.amnesty.org/images/vertical_bar.gif" width="3" height="7" alt="" border="0" /> <a href="http://www.amnesty.org/campaigns">CAMPAIGNS</a>  <img src="http://www.amnesty.org/images/vertical_bar.gif" width="3" height="7" alt="" border="0" /> <a href="http://www.amnesty.org/resources">RESOURCES &amp;  LINKS</a> <img src="http://www.amnesty.org/images/vertical_bar.gif" width="3" height="7" alt="" border="0" /> <a href="http://www.amnesty.org/contact">CONTACT US</a> <img src="http://www.amnesty.org/images/vertical_bar.gif" width="3" height="7" alt="" border="0" /> <a href="http://www.amnesty.org/sitemap">SITEMAP</a> </p> <p class="copyright">&#169; Copyright Amnesty International </p> <br />
+
+<br /></div>
+<!--v6.0FooterLinks: END-->

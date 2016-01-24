@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/15402/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/ssl
+END
+EasySSLProtocolSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/15402/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/ssl/EasySSLProtocolSocketFactory.java
+END
+EasyX509TrustManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/15402/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/ssl/EasyX509TrustManager.java
+END

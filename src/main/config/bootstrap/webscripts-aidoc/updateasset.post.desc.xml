@@ -1,0 +1,9 @@
+<webscript>
+  <shortname>Update Indexed Asset</shortname>
+  <description>Update metadata for an existing asset</description>
+  <url>/aidoc/updateasset</url>
+  <format default="xml">argument</format>
+  <authentication>guest</authentication>
+  <transaction>required</transaction>
+</webscript>
+

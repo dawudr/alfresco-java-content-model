@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view:view xmlns:view="http://www.alfresco.org/view/repository/1.0">
+  <view:metadata>
+    <view:exportBy>admin</view:exportBy>
+    <view:exportDate>2007-08-07T12:53:13.191+01:00</view:exportDate>
+    <view:exporterVersion>2.1.0 (R1 443)</view:exporterVersion>
+    <view:exportOf>/app:company_home/app:dictionary/app:space_templates/cm:Classification_x0020_Template</view:exportOf>
+  </view:metadata>
+  <cm:folder xmlns:act="http://www.alfresco.org/model/action/1.0" xmlns:app="http://www.alfresco.org/model/application/1.0" xmlns:ver="http://www.alfresco.org/model/versionstore/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:wcm="http://www.alfresco.org/model/wcmmodel/1.0" xmlns:wcmwf="http://www.alfresco.org/model/wcmworkflow/1.0" xmlns:rule="http://www.alfresco.org/model/rule/1.0" xmlns:fm="http://www.alfresco.org/model/forum/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:alf="http://www.alfresco.org" xmlns:d="http://www.alfresco.org/model/dictionary/1.0" xmlns:view="http://www.alfresco.org/view/repository/1.0" xmlns:aicore="http://www.amnesty.org/model/aicore/1.0" xmlns:wf="http://www.alfresco.org/model/workflow/1.0" xmlns:usr="http://www.alfresco.org/model/user/1.0" xmlns:cm="http://www.alfresco.org/model/content/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:sys="http://www.alfresco.org/model/system/1.0" xmlns:wca="http://www.alfresco.org/model/wcmappmodel/1.0" xmlns:bpm="http://www.alfresco.org/model/bpm/1.0" xmlns:custom="custom.model" xmlns:reg="http://www.alfresco.org/system/registry/1.0" xmlns:module="http://www.alfresco.org/system/modules/1.0" xmlns="" view:childName="cm:Classification Template">
+    <view:aspects>
+      <cm:auditable></cm:auditable>
+      <sys:referenceable></sys:referenceable>
+      <app:uifacets></app:uifacets>
+      <rule:rules></rule:rules>
+    </view:aspects>
+    <view:properties>
+      <cm:description></cm:description>
+      <app:icon>space-icon-default</app:icon>
+      <sys:node-uuid>5a28709e-44d3-11dc-ae93-7d845482aa3b</sys:node-uuid>
+      <sys:node-dbid>1470</sys:node-dbid>
+      <cm:title>Classification Template</cm:title>
+      <cm:created>2007-08-07T11:45:45.613+01:00</cm:created>
+      <cm:modifier>admin</cm:modifier>
+      <cm:modified>2007-08-07T12:01:18.910+01:00</cm:modified>
+      <cm:creator>admin</cm:creator>
+      <sys:store-protocol>workspace</sys:store-protocol>
+      <cm:name>Classification Template</cm:name>
+      <sys:store-identifier>SpacesStore</sys:store-identifier>
+    </view:properties>
+    <view:associations>
+      <rule:ruleFolder>
+        <cm:systemfolder view:childName="rule:ruleFolder">
+          <view:aspects>
+            <cm:auditable></cm:auditable>
+            <sys:referenceable></sys:referenceable>
+          </view:aspects>
+          <view:properties>
+            <sys:node-uuid>04c1fde9-44d4-11dc-ae93-7d845482aa3b</sys:node-uuid>
+            <sys:node-dbid>1471</sys:node-dbid>
+            <cm:created>2007-08-07T11:50:31.816+01:00</cm:created>
+            <cm:modifier>admin</cm:modifier>
+            <cm:modified>2007-08-07T11:50:32.347+01:00</cm:modified>
+            <cm:creator>admin</cm:creator>
+            <sys:store-protocol>workspace</sys:store-protocol>
+            <cm:name>04c1fde9-44d4-11dc-ae93-7d845482aa3b</cm:name>
+            <sys:store-identifier>SpacesStore</sys:store-identifier>
+          </view:properties>
+          <view:associations>
+            <cm:contains>
+              <rule:rule view:childName="rule:rules04c929de-44d4-11dc-ae93-7d845482aa3b">
+                <view:aspects>
+                  <cm:titled></cm:titled>
+                  <cm:auditable></cm:auditable>
+                  <sys:referenceable></sys:referenceable>
+                </view:aspects>
+                <view:properties>
+                  <cm:description></cm:description>
+                  <sys:node-uuid>04c929df-44d4-11dc-ae93-7d845482aa3b</sys:node-uuid>
+                  <sys:node-dbid>1472</sys:node-dbid>
+                  <cm:title>Apply categories to classification</cm:title>
+                  <cm:created>2007-08-07T11:50:31.847+01:00</cm:created>
+                  <cm:modifier>admin</cm:modifier>
+                  <rule:disabled>false</rule:disabled>
+                  <cm:modified>2007-08-07T12:41:27.722+01:00</cm:modified>
+                  <rule:applyToChildren>true</rule:applyToChildren>
+                  <cm:creator>admin</cm:creator>
+                  <sys:store-protocol>workspace</sys:store-protocol>
+                  <rule:ruleType>
+                    <view:values>
+                      <view:value>inbound</view:value>
+                    </view:values>
+                  </rule:ruleType>
+                  <rule:executeAsynchronously>true</rule:executeAsynchronously>
+                  <cm:name>04c929df-44d4-11dc-ae93-7d845482aa3b</cm:name>
+                  <sys:store-identifier>SpacesStore</sys:store-identifier>
+                </view:properties>
+                <view:associations>
+                  <rule:action>
+                    <act:compositeaction view:childName="rule:action">
+                      <view:aspects>
+                        <cm:auditable></cm:auditable>
+                        <sys:referenceable></sys:referenceable>
+                      </view:aspects>
+                      <view:properties>
+                        <act:executeAsynchronously>false</act:executeAsynchronously>
+                        <act:actionDescription>
+                          <view:value view:isNull="true"></view:value>
+                        </act:actionDescription>
+                        <sys:node-uuid>21f0add8-44db-11dc-ae93-7d845482aa3b</sys:node-uuid>
+                        <sys:node-dbid>1902</sys:node-dbid>
+                        <cm:created>2007-08-07T12:41:27.457+01:00</cm:created>
+                        <cm:modifier>admin</cm:modifier>
+                        <cm:modified>2007-08-07T12:41:27.754+01:00</cm:modified>
+                        <act:actionTitle>
+                          <view:value view:isNull="true"></view:value>
+                        </act:actionTitle>
+                        <cm:creator>admin</cm:creator>
+                        <act:definitionName>composite-action</act:definitionName>
+                        <sys:store-protocol>workspace</sys:store-protocol>
+                        <cm:name>21f0add8-44db-11dc-ae93-7d845482aa3b</cm:name>
+                        <sys:store-identifier>SpacesStore</sys:store-identifier>
+                      </view:properties>
+                      <view:associations>
+                        <act:conditions>
+                          <act:actioncondition view:childName="act:conditions">
+                            <view:aspects>
+                              <cm:auditable></cm:auditable>
+                              <sys:referenceable></sys:referenceable>
+                            </view:aspects>
+                            <view:properties>
+                              <sys:node-uuid>21f0add9-44db-11dc-ae93-7d845482aa3b</sys:node-uuid>
+                              <sys:node-dbid>1903</sys:node-dbid>
+                              <cm:created>2007-08-07T12:41:27.519+01:00</cm:created>
+                              <cm:modifier>admin</cm:modifier>
+                              <cm:modified>2007-08-07T12:41:27.769+01:00</cm:modified>
+                              <cm:creator>admin</cm:creator>
+                              <act:definitionName>no-condition</act:definitionName>
+                              <sys:store-protocol>workspace</sys:store-protocol>
+                              <act:invert>false</act:invert>
+                              <cm:name>21f0add9-44db-11dc-ae93-7d845482aa3b</cm:name>
+                              <sys:store-identifier>SpacesStore</sys:store-identifier>
+                            </view:properties>
+                            <view:associations></view:associations>
+                          </act:actioncondition>
+                        </act:conditions>
+                        <act:actions>
+                          <act:action view:childName="act:actions">
+                            <view:aspects>
+                              <cm:auditable></cm:auditable>
+                              <sys:referenceable></sys:referenceable>
+                            </view:aspects>
+                            <view:properties>
+                              <act:executeAsynchronously>false</act:executeAsynchronously>
+                              <act:actionDescription>
+                                <view:value view:isNull="true"></view:value>
+                              </act:actionDescription>
+                              <sys:node-uuid>21f0adda-44db-11dc-ae93-7d845482aa3b</sys:node-uuid>
+                              <sys:node-dbid>1904</sys:node-dbid>
+                              <cm:created>2007-08-07T12:41:27.582+01:00</cm:created>
+                              <cm:modifier>admin</cm:modifier>
+                              <cm:modified>2007-08-07T12:41:27.785+01:00</cm:modified>
+                              <act:actionTitle>
+                                <view:value view:isNull="true"></view:value>
+                              </act:actionTitle>
+                              <cm:creator>admin</cm:creator>
+                              <act:definitionName>link-category</act:definitionName>
+                              <sys:store-protocol>workspace</sys:store-protocol>
+                              <cm:name>21f0adda-44db-11dc-ae93-7d845482aa3b</cm:name>
+                              <sys:store-identifier>SpacesStore</sys:store-identifier>
+                            </view:properties>
+                            <view:associations>
+                              <act:parameters>
+                                <act:actionparameter view:childName="act:parameters">
+                                  <view:aspects>
+                                    <cm:auditable></cm:auditable>
+                                    <sys:referenceable></sys:referenceable>
+                                  </view:aspects>
+                                  <view:properties>
+                                    <act:parameterValue>
+                                      <view:value view:datatype="d:category">/cm:generalclassifiable/cm:Themes</view:value>
+                                    </act:parameterValue>
+                                    <act:parameterName>category-value</act:parameterName>
+                                    <sys:node-uuid>222c575a-44db-11dc-ae93-7d845482aa3b</sys:node-uuid>
+                                    <sys:node-dbid>1905</sys:node-dbid>
+                                    <cm:created>2007-08-07T12:41:27.644+01:00</cm:created>
+                                    <cm:modifier>admin</cm:modifier>
+                                    <cm:modified>2007-08-07T12:41:27.800+01:00</cm:modified>
+                                    <cm:creator>admin</cm:creator>
+                                    <sys:store-protocol>workspace</sys:store-protocol>
+                                    <cm:name>222c575a-44db-11dc-ae93-7d845482aa3b</cm:name>
+                                    <sys:store-identifier>SpacesStore</sys:store-identifier>
+                                  </view:properties>
+                                  <view:associations></view:associations>
+                                </act:actionparameter>
+                                <act:actionparameter view:childName="act:parameters">
+                                  <view:aspects>
+                                    <cm:auditable></cm:auditable>
+                                    <sys:referenceable></sys:referenceable>
+                                  </view:aspects>
+                                  <view:properties>
+                                    <act:parameterValue>
+                                      <view:value view:datatype="d:qname">{http://www.alfresco.org/model/content/1.0}generalclassifiable</view:value>
+                                    </act:parameterValue>
+                                    <act:parameterName>category-aspect</act:parameterName>
+                                    <sys:node-uuid>2233834f-44db-11dc-ae93-7d845482aa3b</sys:node-uuid>
+                                    <sys:node-dbid>1906</sys:node-dbid>
+                                    <cm:created>2007-08-07T12:41:27.707+01:00</cm:created>
+                                    <cm:modifier>admin</cm:modifier>
+                                    <cm:modified>2007-08-07T12:41:27.800+01:00</cm:modified>
+                                    <cm:creator>admin</cm:creator>
+                                    <sys:store-protocol>workspace</sys:store-protocol>
+                                    <cm:name>2233834f-44db-11dc-ae93-7d845482aa3b</cm:name>
+                                    <sys:store-identifier>SpacesStore</sys:store-identifier>
+                                  </view:properties>
+                                  <view:associations></view:associations>
+                                </act:actionparameter>
+                              </act:parameters>
+                            </view:associations>
+                          </act:action>
+                        </act:actions>
+                      </view:associations>
+                    </act:compositeaction>
+                  </rule:action>
+                </view:associations>
+              </rule:rule>
+            </cm:contains>
+          </view:associations>
+        </cm:systemfolder>
+      </rule:ruleFolder>
+    </view:associations>
+  </cm:folder>
+</view:view>

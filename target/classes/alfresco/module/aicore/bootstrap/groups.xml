@@ -1,0 +1,92 @@
+<view:view xmlns:view="http://www.alfresco.org/view/repository/1.0"
+           xmlns:cm="http://www.alfresco.org/model/content/1.0"
+           xmlns:sys="http://www.alfresco.org/model/system/1.0"
+           xmlns:usr="http://www.alfresco.org/model/user/1.0"
+           xmlns:app="http://www.alfresco.org/model/application/1.0">
+     
+      
+	  <cm:authorityContainer view:childName="cm:GROUP_IRPRM_COORD">
+	    <view:aspects>
+	      <sys:referenceable></sys:referenceable>
+	    </view:aspects>
+	    <view:properties>
+	      <sys:store-protocol>user</sys:store-protocol>
+	      <cm:name>GROUP_IRPRM_COORD</cm:name>
+	      <sys:node-uuid>GROUP_IRPRM_COORD</sys:node-uuid>
+	      <cm:authorityName>GROUP_IRPRM_COORD</cm:authorityName>
+	      <sys:store-identifier>alfrescoUserStore</sys:store-identifier>
+	    </view:properties>
+	    <view:associations></view:associations>
+	  </cm:authorityContainer>
+
+	  <cm:authorityContainer view:childName="cm:GROUP_AFRS_COLLAB">
+	    <view:aspects>
+	      <sys:referenceable></sys:referenceable>
+	    </view:aspects>
+	    <view:properties>
+	      <sys:store-protocol>user</sys:store-protocol>
+	      <cm:name>GROUP_AFRS_COLLAB</cm:name>
+	      <sys:node-uuid>GROUP_AFRS_COLLAB</sys:node-uuid>
+	      <cm:authorityName>GROUP_AFRS_COLLAB</cm:authorityName>
+	      <sys:store-identifier>alfrescoUserStore</sys:store-identifier>
+	    </view:properties>
+	    <view:associations></view:associations>
+	  </cm:authorityContainer>
+	
+	  <cm:authorityContainer view:childName="cm:GROUP_EDAI_COORD">
+	    <view:aspects>
+	      <sys:referenceable></sys:referenceable>
+	    </view:aspects>
+	    <view:properties>
+	      <sys:store-protocol>user</sys:store-protocol>
+	      <cm:name>GROUP_EDAI_COORD</cm:name>
+	      <sys:node-uuid>GROUP_EDAI_COORD</sys:node-uuid>
+	      <cm:authorityName>GROUP_EDAI_COORD</cm:authorityName>
+	      <sys:store-identifier>alfrescoUserStore</sys:store-identifier>
+	    </view:properties>
+	    <view:associations></view:associations>
+	  </cm:authorityContainer>
+	
+	  <cm:authorityContainer view:childName="cm:GROUP_EDAI_COLLAB">
+	    <view:aspects>
+	      <sys:referenceable></sys:referenceable>
+	    </view:aspects>
+	    <view:properties>
+	      <sys:store-protocol>user</sys:store-protocol>
+	      <cm:name>GROUP_EDAI_COLLAB</cm:name>
+	      <sys:node-uuid>GROUP_EDAI_COLLAB</sys:node-uuid>
+	      <cm:authorityName>GROUP_EDAI_COLLAB</cm:authorityName>
+	      <sys:store-identifier>alfrescoUserStore</sys:store-identifier>
+	    </view:properties>
+	    <view:associations></view:associations>
+	  </cm:authorityContainer>
+	
+	  <cm:authorityContainer view:childName="cm:GROUP_EFAI_COORD">
+	    <view:aspects>
+	      <sys:referenceable></sys:referenceable>
+	    </view:aspects>
+	    <view:properties>
+	      <sys:store-protocol>user</sys:store-protocol>
+	      <cm:name>GROUP_EFAI_COORD</cm:name>
+	      <sys:node-uuid>GROUP_EFAI_COORD</sys:node-uuid>
+	      <cm:authorityName>GROUP_EFAI_COORD</cm:authorityName>
+	      <sys:store-identifier>alfrescoUserStore</sys:store-identifier>
+	    </view:properties>
+	    <view:associations></view:associations>
+	  </cm:authorityContainer>
+	
+	  <cm:authorityContainer view:childName="cm:GROUP_EFAI_COLLAB">
+	    <view:aspects>
+	      <sys:referenceable></sys:referenceable>
+	    </view:aspects>
+	    <view:properties>
+	      <sys:store-protocol>user</sys:store-protocol>
+	      <cm:name>GROUP_EFAI_COLLAB</cm:name>
+	      <sys:node-uuid>GROUP_EFAI_COLLAB</sys:node-uuid>
+	      <cm:authorityName>GROUP_EFAI_COLLAB</cm:authorityName>
+	      <sys:store-identifier>alfrescoUserStore</sys:store-identifier>
+	    </view:properties>
+	    <view:associations></view:associations>
+	  </cm:authorityContainer>
+
+</view:view>

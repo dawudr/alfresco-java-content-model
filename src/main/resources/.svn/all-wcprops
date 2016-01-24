@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/16397/apps/aidoc/trunk/amp-aicore/src/main/resources
+END
+keyword_corrections.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/15409/apps/aidoc/trunk/amp-aicore/src/main/resources/keyword_corrections.xml
+END
+keyword_issue.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/15409/apps/aidoc/trunk/amp-aicore/src/main/resources/keyword_issue.xml
+END
+aicore.properties
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/16396/apps/aidoc/trunk/amp-aicore/src/main/resources/aicore.properties
+END

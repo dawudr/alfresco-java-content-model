@@ -1,0 +1,6 @@
+K 13
+svn:externals
+V 64
+scripts https://svn.amnesty.org/repos/apps/aidoc/trunk/_scripts
+
+END

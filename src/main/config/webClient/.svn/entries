@@ -1,0 +1,41 @@
+8
+
+dir
+16402
+https://svn.amnesty.org/repos/apps/aidoc/trunk/amp-aicore/src/main/config/webClient
+https://svn.amnesty.org/repos
+
+
+
+2010-11-18T15:53:33.832013Z
+16391
+drahman
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1d66758f-4870-4244-a4cf-f140c9218451
+
+web-client-config-context.xml
+file
+
+
+
+
+2010-11-18T23:24:18.579000Z
+b9d39325d9674713ccd35879c633d8ac
+2010-11-18T15:53:33.832013Z
+16391
+drahman
+has-props
+

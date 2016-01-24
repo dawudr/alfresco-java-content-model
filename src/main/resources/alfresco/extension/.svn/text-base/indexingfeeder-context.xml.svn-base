@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+
+<beans>
+	<!-- Set indexingfeeder action -->
+	<bean id="indexingfeeder" class="org.amnesty.aidoc.feeder.IndexingFeedActionExecuter" parent="action-executer">
+		<property name="nodeService">
+			<ref bean="nodeService" />
+		</property>
+	    <property name="fileFolderService">
+	      <ref bean="fileFolderService" />
+	    </property>
+	    <property name="contentService">
+           <ref bean="contentService" />
+       </property> 
+       <property name="IndexingFeedState">
+           <ref bean="indexStatus" />
+       </property> 
+       <property name="indexingFeeder">
+           <ref bean="indexingFeeder" />
+       </property>                 
+	</bean>	
+	
+    <bean id="indexStatus" class="org.amnesty.aidoc.feeder.IndexingFeedState">
+       <property name="nodeService">
+           <ref bean="nodeService" />
+       </property>
+       <property name="policyFilter">
+            <ref bean="policyBehaviourFilter"/>
+        </property>    
+    </bean>
+
+    <bean id="indexingFeeder" class="org.amnesty.aidoc.feeder.IndexingFeeder">
+       <property name="contentService">
+           <ref bean="contentService" />
+       </property> 
+       <property name="indexingFeedState">
+           <ref bean="indexingFeedState" />
+       </property>      
+    </bean>     
+ 
+	<!-- Action properties -->
+	<bean id="extension.actionResourceBundles" parent="actionResourceBundles">
+		<property name="resourceBundles">
+			<list>
+				<value>alfresco.extension.indexingfeeder</value>
+			</list>
+		</property>
+	</bean>	
+</beans>

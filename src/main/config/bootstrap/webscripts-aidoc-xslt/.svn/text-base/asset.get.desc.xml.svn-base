@@ -1,0 +1,8 @@
+<webscript>
+  <shortname>Asset XSLT</shortname>
+  <description>Asset XSLT</description>
+  <url>/aidoc/xslt/asset</url>
+  <format default="xml">argument</format>
+  <authentication>guest</authentication>
+  <transaction>required</transaction>
+</webscript>

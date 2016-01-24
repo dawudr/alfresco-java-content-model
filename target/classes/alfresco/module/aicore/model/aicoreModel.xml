@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Note: the rma: namespace is defined further on in the document -->
+<model name="aicore:aicore"
+  xmlns="http://www.alfresco.org/model/dictionary/1.0">
+
+  <!-- Meta-data about the model -->
+  <description>Amnesty Core Model</description>
+  <author>Damon Rand</author>
+  <version>1.0</version>
+
+  <!-- Imports are required to allow references to definitions in other models -->
+  <imports>
+    <!-- Import Alfresco Dictionary Definitions -->
+    <import uri="http://www.alfresco.org/model/dictionary/1.0"
+      prefix="d" />
+    <!-- Import Alfresco Content Domain Model Definitions -->
+    <import uri="http://www.alfresco.org/model/content/1.0" prefix="cm" />
+    <!-- Import Alfresco Content Domain Model Definitions -->
+    <import uri="http://www.alfresco.org/model/system/1.0" prefix="sys" />
+  </imports>
+
+  <!-- Local Namespace -->
+  <namespaces>
+    <namespace uri="http://www.amnesty.org/model/aicore/1.0"
+      prefix="aicore" />
+  </namespaces>
+
+  <types>
+
+    <!-- New smart spaces -->
+
+    <type name="aicore:Asset">
+      <title>Asset Space</title>
+      <parent>cm:folder</parent>
+      <properties>
+        <property name="aicore:publishDate">
+          <title>Publish Date</title>
+          <type>d:date</type>
+        </property>
+      </properties>
+      <mandatory-aspects>
+        <aspect>cm:generalclassifiable</aspect>
+        <aspect>aicore:secondaryclassifiable</aspect>
+        <aspect>aicore:securityClassifiable</aspect>
+        <aspect>aicore:propagateCategories</aspect>
+        <aspect>aicore:aiIndexed</aspect>
+        <!-- aspect>aicore:publishable</aspect-->
+        <!-- Causing problems deleting content<aspect>aicore:withdrawable</aspect>-->
+        <aspect>aicore:feedPublishable</aspect>        
+      </mandatory-aspects>
+    </type>
+
+    <type name="aicore:Edition">
+      <title>Asset Edition Space</title>
+      <parent>cm:folder</parent>
+    </type>
+
+    <!-- An AssetType is the abstract base class for content that is 'findable' -->
+
+    <type name="aicore:Document">
+      <title>General Document</title>
+      <parent>cm:content</parent>
+      <mandatory-aspects>
+        <aspect>cm:titled</aspect>
+        <aspect>cm:author</aspect>
+        <aspect>cm:effectivity</aspect>
+        <!--aspect>cm:versionable</aspect-->
+        <aspect>cm:generalclassifiable</aspect>
+        <aspect>aicore:secondaryclassifiable</aspect>
+        <aspect>aicore:aiIndexed</aspect>
+        <!-- aspect>aicore:publishable</aspect-->
+        <!-- Causing problems deleting content <aspect>aicore:itemStatusFlags</aspect> -->
+      </mandatory-aspects>
+    </type>
+
+    <!-- Types for Reports -->
+
+    <type name="aicore:Report">
+      <title>Report</title>
+      <parent>aicore:Document</parent>
+    </type>
+
+    <!-- Types for press items -->
+
+    <type name="aicore:PressRelease">
+      <title>Press Release</title>
+      <parent>aicore:Document</parent>
+    </type>
+
+    <type name="aicore:MediaBriefing">
+      <title>Press Media Briefing</title>
+      <parent>aicore:PressRelease</parent>
+    </type>
+
+    <type name="aicore:MediaAdvisory">
+      <title>Press Media Advisory</title>
+      <parent>aicore:PressRelease</parent>
+    </type>
+
+    <!-- Types for Action documents -->
+
+    <type name="aicore:ActionDocument">
+      <title>Action Document</title>
+      <parent>aicore:Document</parent>
+    </type>
+
+    <type name="aicore:UrgentAction">
+      <title>Action - Urgent</title>
+      <parent>aicore:ActionDocument</parent>
+    </type>
+
+    <!-- Types for Newsletter documents -->
+
+    <type name="aicore:Newsletter">
+      <title>Newsletter</title>
+      <parent>aicore:Document</parent>
+    </type>
+    
+    <!-- New types -->
+    
+    <type name="aicore:PressItem">
+      <title>Press Item</title>
+      <parent>aicore:Document</parent>
+    </type>
+    
+    <type name="aicore:PublicStatement">
+      <title>Public Statements</title>
+      <parent>aicore:Document</parent>
+    </type>
+    
+    <type name="aicore:OpenLetter">
+      <title>Open Letter</title>
+      <parent>aicore:Document</parent>
+    </type>
+    
+    <type name="aicore:MedicalAction">
+      <title>Medical Action</title>
+      <parent>aicore:ActionDocument</parent>
+    </type>
+    
+    <type name="aicore:Postcard">
+      <title>Postcard</title>
+      <parent>aicore:Document</parent>
+    </type>
+    
+    <type name="aicore:Calendar">
+      <title>Calendar</title>
+      <parent>aicore:Document</parent>
+    </type>
+    
+    <type name="aicore:Poster">
+      <title>Poster</title>
+      <parent>aicore:Document</parent>
+    </type>
+    
+    <type name="aicore:PolicyDocument">
+      <title>Policy Document</title>
+      <parent>aicore:Document</parent>
+    </type>
+    
+    <type name="aicore:QuestionsAndAnswers">
+      <title>Questions And Answers</title>
+      <parent>aicore:Document</parent>
+    </type>
+    
+    <!-- Types that are not Documents -->
+
+    <type name="aicore:Cover">
+      <title>Report Cover</title>
+      <parent>cm:content</parent>
+      <mandatory-aspects>
+        <aspect>cm:partable</aspect>
+        <!--aspect>cm:versionable</aspect-->
+      </mandatory-aspects>
+    </type>
+
+    <type name="aicore:Contents">
+      <title>Report Table Of Contents</title>
+      <parent>cm:content</parent>
+      <mandatory-aspects>
+        <!--aspect>cm:versionable</aspect-->
+      </mandatory-aspects>
+    </type>
+
+    <type name="aicore:Pinksheet">
+      <title>Report Pinksheet</title>
+      <parent>cm:content</parent>
+      <mandatory-aspects>
+        <!--aspect>cm:versionable</aspect-->
+      </mandatory-aspects>
+    </type>
+
+    <type name="aicore:Summary">
+      <title>Report Summary</title>
+      <parent>cm:content</parent>
+      <mandatory-aspects>
+        <!--aspect>cm:versionable</aspect-->
+      </mandatory-aspects>
+    </type>
+
+    <type name="aicore:Appendix">
+      <title>Report Appendix</title>
+      <parent>cm:content</parent>
+      <mandatory-aspects>
+        <!--aspect>cm:versionable</aspect-->
+      </mandatory-aspects>
+    </type>
+
+  </types>
+
+  <aspects>
+
+    <!-- Need to create a script that checks each asset on a schedule and updates this field -->
+    <aspect name="aicore:autovalidatable">
+      <title>Autovalidatable</title>
+      <properties>
+        <property name="aicore:invalidated">
+          <title>Invalidated</title>
+          <type>d:boolean</type>
+          <default>false</default>
+        </property>
+        <property name="aicore:validityNotes">
+          <title>Validity Notes</title>
+          <type>d:text</type>
+          <mandatory>false</mandatory>
+          <default>No validity notes</default>
+        </property>
+      </properties>
+    </aspect>
+
+    <!-- Adds an index number to an asset -->
+    <aspect name="aicore:aiIndexed">
+      <title>AiIndexed</title>
+      <properties>
+        <property name="aicore:aiIndex">
+          <title>AiIndex</title>
+          <type>d:text</type>
+          <mandatory>false</mandatory>
+          <!--- Don't tokenize the AiIndex -->
+          <index enabled="true">
+            <atomic>true</atomic>
+            <stored>true</stored>
+            <tokenised>false</tokenised>
+          </index>
+        </property>
+        <property name="aicore:aiIndexType">
+          <title>AiIndex Type</title>
+          <type>d:text</type>
+          <mandatory>false</mandatory>
+          <!--- Don't tokenize the AiIndex -->
+          <index enabled="true">
+            <atomic>true</atomic>
+            <stored>true</stored>
+            <tokenised>false</tokenised>
+          </index>
+        </property>
+        <property name="aicore:aiTitle">
+          <title>AiIndex Title</title>
+          <type>d:text</type>
+          <mandatory>false</mandatory>
+          <!--- Don't tokenize the AiIndex -->
+          <index enabled="true">
+            <atomic>true</atomic>
+            <stored>true</stored>
+            <tokenised>false</tokenised>
+          </index>
+        </property>
+        <property name="aicore:aiDescription">
+          <title>AiIndex Description</title>
+          <type>d:text</type>
+          <mandatory>false</mandatory>
+          <!--- Don't tokenize the AiIndex -->
+          <index enabled="true">
+            <atomic>true</atomic>
+            <stored>true</stored>
+            <tokenised>false</tokenised>
+          </index>
+        </property> 
+        <property name="aicore:aiIndexStatus">
+          <title>AiIndex Status</title>
+          <type>d:text</type>
+          <mandatory>false</mandatory>
+          <!--- Don't tokenize the AiIndex -->
+          <index enabled="true">
+            <atomic>true</atomic>
+            <stored>true</stored>
+            <tokenised>false</tokenised>
+          </index>
+        </property>
+        <property name="aicore:aiIndexModified">
+          <title>AiIndex Last Modified</title>
+          <type>d:datetime</type>
+          <mandatory>false</mandatory>
+          <!--- Don't tokenize the AiIndex -->
+          <index enabled="true">
+            <atomic>true</atomic>
+            <stored>true</stored>
+            <tokenised>false</tokenised>
+          </index>
+        </property>
+        <property name="aicore:requestedBy">
+          <title>Requested By Field</title>
+          <type>d:text</type>
+          <mandatory>false</mandatory>
+          <!--- Don't tokenize the AiIndex -->
+          <index enabled="true">
+            <atomic>true</atomic>
+            <stored>true</stored>
+            <tokenised>false</tokenised>
+          </index>
+        </property>
+        <property name="aicore:network">
+          <title>Network Field</title>
+          <type>d:text</type>
+          <mandatory>false</mandatory>
+          <!--- Don't tokenize the AiIndex -->
+          <index enabled="true">
+            <atomic>true</atomic>
+            <stored>true</stored>
+            <tokenised>false</tokenised>
+          </index>
+        </property>
+        <property name="aicore:networkNumber">
+          <title>Network Number Field</title>
+          <type>d:text</type>
+          <mandatory>false</mandatory>
+          <!--- Don't tokenize the AiIndex -->
+          <index enabled="true">
+            <atomic>true</atomic>
+            <stored>true</stored>
+            <tokenised>false</tokenised>
+          </index>
+        </property>     
+      </properties>
+    </aspect> 
+        
+    <!-- Publish date time of the asset. Date is propagated to children. Not implemented yet -->
+    <aspect name="aicore:publishable">
+      <title>Publishable</title>
+      <properties>
+        <property name="aicore:publishDateTime">
+          <title>Publish Date</title>
+          <type>d:datetime</type>
+          <index enabled="true">
+            <atomic>true</atomic>
+            <stored>true</stored>
+            <tokenised>false</tokenised>
+          </index>
+        </property>
+      </properties>
+    </aspect>
+
+    <!-- Withdrawn means the text is not available any more -->
+    <aspect name="aicore:withdrawable">
+      <title>Withdrawable</title>
+      <properties>
+        <property name="aicore:withdrawn">
+          <title>Withdrawn</title>
+          <type>d:boolean</type>
+          <mandatory>true</mandatory>
+          <default>false</default>
+        </property>
+      </properties>
+    </aspect>
+
+    <!-- Each type can have some status flags -->
+    <aspect name="aicore:itemStatusFlags">
+      <title>ItemStatusFlags</title>
+      <properties>
+        <property name="aicore:searchcopy">
+          <title>Search Copy</title>
+          <type>d:boolean</type>
+          <mandatory>false</mandatory>
+          <default>false</default>
+          <index enabled="true">
+            <atomic>true</atomic>
+            <stored>true</stored>
+            <tokenised>false</tokenised>
+          </index>
+        </property>
+      </properties>
+    </aspect>
+
+    <aspect name="aicore:securityClassifiable">
+      <title>SecurityClassifiable</title>
+      <properties>
+        <property name="aicore:securityClass">
+          <title>Security Class</title>
+          <type>d:text</type>
+          <mandatory>true</mandatory>
+          <default>Internal</default>
+          <constraints>
+            <constraint type="LIST">
+              <parameter name="allowedValues">
+                <list>
+                  <value>Public</value>
+                  <value>Internal</value>
+                </list>
+              </parameter>
+              <parameter name="caseSensitive">
+                <value>false</value>
+              </parameter>
+            </constraint>
+          </constraints>
+        </property>
+      </properties>
+    </aspect>
+
+    <aspect name="aicore:propagateCategories">
+      <title>PropagateCategories</title>
+    </aspect>
+
+    <aspect name="aicore:secondaryclassifiable">
+      <title>Secondary Classifiable</title>
+      <parent>cm:classifiable</parent>
+      <properties>
+        <property name="aicore:secCategories">
+          <title>Secondary Categories</title>
+          <type>d:category</type>
+          <mandatory>false</mandatory>
+          <multiple>true</multiple>
+          <index enabled="true">
+            <atomic>true</atomic>
+            <stored>true</stored>
+            <tokenised>false</tokenised>
+          </index>
+        </property>
+      </properties>
+    </aspect>
+	
+    <aspect name="aicore:feedPublishable">
+      <title>FeedPublishable</title>
+      <properties>
+        <property name="aicore:feedPublishedStatus">
+          <title>Feed Published</title>
+          <type>d:text</type>
+          <mandatory>false</mandatory>
+          <constraints>
+            <constraint type="LIST">
+              <parameter name="allowedValues">
+                <list>
+                  <value>Unknown</value>
+                  <value>Accepted</value>
+                  <value>Failed</value>
+                  <value>Pending</value>
+                  <value>Pending Removal</value>                 
+                  <value>Completed</value>
+                  <value>Removed</value>
+                  <value>Failed_in_error</value>
+                </list>
+              </parameter>
+              <parameter name="caseSensitive">
+                <value>false</value>
+              </parameter>
+            </constraint>
+          </constraints>
+        </property>
+      </properties>
+    </aspect>	
+
+  </aspects>
+
+</model>

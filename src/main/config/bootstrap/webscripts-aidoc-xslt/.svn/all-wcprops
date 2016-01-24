@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc-xslt
+END
+404.get.desc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc-xslt/404.get.desc.xml
+END
+categories.get.desc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc-xslt/categories.get.desc.xml
+END
+asset.get.desc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc-xslt/asset.get.desc.xml
+END
+asset.get.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc-xslt/asset.get.xml.ftl
+END
+404.get.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc-xslt/404.get.xml.ftl
+END
+categories.get.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/src/main/config/bootstrap/webscripts-aidoc-xslt/categories.get.xml.ftl
+END

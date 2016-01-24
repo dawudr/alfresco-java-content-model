@@ -1,0 +1,9 @@
+<webscript>
+  <shortname>Aidoc Search</shortname>
+  <description>Find all assets whose content contains the specified search term</description>
+   <url>/aidoc/search.html?q={searchTerm}</url>
+   <url>/aidoc/search.atom?q={searchTerm}</url>
+   <format default="html">extension</format>
+   <authentication>guest</authentication>
+   <transaction>required</transaction>
+</webscript>

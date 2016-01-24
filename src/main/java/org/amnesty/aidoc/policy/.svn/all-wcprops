@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/15891/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/policy
+END
+PropagateCategoriesAspect.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/15891/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/policy/PropagateCategoriesAspect.java
+END
+SecurityClassifiableAspect.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/15513/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/policy/SecurityClassifiableAspect.java
+END
+AiIndexedAspect.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/15712/apps/aidoc/trunk/amp-aicore/src/main/java/org/amnesty/aidoc/policy/AiIndexedAspect.java
+END

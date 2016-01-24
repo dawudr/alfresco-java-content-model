@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/15418/apps/aidoc/trunk/amp-aicore/test/java/org/amnesty/aidoc/webscript
+END
+WebscriptTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/test/java/org/amnesty/aidoc/webscript/WebscriptTestBase.java
+END
+CreateTypeWebScriptTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/15418/apps/aidoc/trunk/amp-aicore/test/java/org/amnesty/aidoc/webscript/CreateTypeWebScriptTest.java
+END
+UpdateAssetWebScriptTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/test/java/org/amnesty/aidoc/webscript/UpdateAssetWebScriptTest.java
+END
+UpdateTypeWebScriptTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/test/java/org/amnesty/aidoc/webscript/UpdateTypeWebScriptTest.java
+END
+CreateAssetWebScriptTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/test/java/org/amnesty/aidoc/webscript/CreateAssetWebScriptTest.java
+END

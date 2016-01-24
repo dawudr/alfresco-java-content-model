@@ -1,0 +1,8 @@
+<webscript>
+  <shortname>Aidoc Homepage</shortname>
+  <description>Show recent docs</description>
+  <url>/aidoc/index</url>
+  <format default="html">argument</format>
+  <authentication>guest</authentication>
+  <transaction>required</transaction>
+</webscript>

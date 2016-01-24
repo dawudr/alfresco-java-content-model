@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/16400/apps/aidoc/trunk/amp-aicore/src/main/config/context
+END
+cmis-api-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/16370/apps/aidoc/trunk/amp-aicore/src/main/config/context/cmis-api-context.xml
+END
+bootstrap-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/16400/apps/aidoc/trunk/amp-aicore/src/main/config/context/bootstrap-context.xml
+END
+web-scripts-application-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/16380/apps/aidoc/trunk/amp-aicore/src/main/config/context/web-scripts-application-context.xml
+END
+service-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/15746/apps/aidoc/trunk/amp-aicore/src/main/config/context/service-context.xml
+END

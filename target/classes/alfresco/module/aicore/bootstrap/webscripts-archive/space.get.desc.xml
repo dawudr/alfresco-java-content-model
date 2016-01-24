@@ -1,0 +1,8 @@
+<webscript>
+  <shortname>Archive Space Get</shortname>
+  <description>Show information about a space</description>
+  <url>/archive/space/{space}</url>
+  <format default="xml">argument</format>
+  <authentication>guest</authentication>
+  <transaction>required</transaction>
+</webscript>

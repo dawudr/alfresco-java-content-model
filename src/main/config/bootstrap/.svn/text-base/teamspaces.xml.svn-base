@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view:view xmlns:view="http://www.alfresco.org/view/repository/1.0"
+  xmlns:cm="http://www.alfresco.org/model/content/1.0"
+  xmlns:app="http://www.alfresco.org/model/application/1.0">
+  <cm:folder view:childName="cm:IRPRM">
+    <view:acl view:inherit="true">
+      <view:ace view:access="ALLOWED">
+        <view:authority>GROUP_IRPRM_COORD</view:authority>
+        <view:permission>Coordinator</view:permission>
+      </view:ace>
+      <view:ace view:access="ALLOWED">
+        <view:authority>GROUP_IRPRM_COLLAB</view:authority>
+        <view:permission>Collaborator</view:permission>
+      </view:ace>
+    </view:acl>
+    <app:uifacets />
+    <cm:name>IRPRM</cm:name>
+    <app:icon>space-icon-default</app:icon>
+    <cm:title>IRPRM</cm:title>
+    <cm:description>IRPRM</cm:description>
+  </cm:folder>
+  <cm:folder view:childName="cm:EDAI">
+    <view:acl view:inherit="true">
+      <view:ace view:access="ALLOWED">
+        <view:authority>GROUP_EDAI_COORD</view:authority>
+        <view:permission>Coordinator</view:permission>
+      </view:ace>
+      <view:ace view:access="ALLOWED">
+        <view:authority>GROUP_EDAI_COLLAB</view:authority>
+        <view:permission>Collaborator</view:permission>
+      </view:ace>
+    </view:acl>
+    <app:uifacets />
+    <cm:name>EDAI</cm:name>
+    <app:icon>space-icon-default</app:icon>
+    <cm:title>EDAI</cm:title>
+    <cm:description>EDAI</cm:description>
+  </cm:folder>
+  <cm:folder view:childName="cm:EFAI">
+    <view:acl view:inherit="true">
+      <view:ace view:access="ALLOWED">
+        <view:authority>GROUP_EFAI_COORD</view:authority>
+        <view:permission>Coordinator</view:permission>
+      </view:ace>
+      <view:ace view:access="ALLOWED">
+        <view:authority>GROUP_EFAI_COLLAB</view:authority>
+        <view:permission>Collaborator</view:permission>
+      </view:ace>
+    </view:acl>
+    <app:uifacets />
+    <cm:name>EFAI</cm:name>
+    <app:icon>space-icon-default</app:icon>
+    <cm:title>EFAI</cm:title>
+    <cm:description>EFAI</cm:description>
+  </cm:folder>
+  <cm:folder view:childName="cm:CHINA">
+    <view:acl view:inherit="false"></view:acl>
+    <app:uifacets />
+    <cm:name>CHINA</cm:name>
+    <app:icon>space-icon-default</app:icon>
+    <cm:title>CHINA</cm:title>
+    <cm:description>CHINA</cm:description>
+  </cm:folder>
+  <cm:folder view:childName="cm:AFRS">
+    <view:acl view:inherit="false"></view:acl>
+    <app:uifacets />
+    <cm:name>AFRS</cm:name>
+    <app:icon>space-icon-default</app:icon>
+    <cm:title>AFRS</cm:title>
+    <cm:description>AFRS</cm:description>
+  </cm:folder>
+</view:view>

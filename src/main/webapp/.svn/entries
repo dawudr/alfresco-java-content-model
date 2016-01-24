@@ -1,0 +1,49 @@
+8
+
+dir
+16402
+https://svn.amnesty.org/repos/apps/aidoc/trunk/amp-aicore/src/main/webapp
+https://svn.amnesty.org/repos
+
+
+
+2010-10-25T14:29:56.601200Z
+16371
+iramosbi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1d66758f-4870-4244-a4cf-f140c9218451
+
+css
+dir
+
+dashboard
+dir
+
+images
+dir
+
+jsp
+dir
+
+prototype
+dir
+
+scripts
+dir
+
+xslt
+dir
+

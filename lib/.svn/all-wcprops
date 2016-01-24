@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/!svn/ver/15442/apps/aidoc/trunk/amp-aicore/lib
+END
+xmlunit-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/15442/apps/aidoc/trunk/amp-aicore/lib/xmlunit-1.3.jar
+END
+acegi-security-0.8.2_patched.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/lib/acegi-security-0.8.2_patched.jar
+END
+javacsv.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/!svn/ver/15442/apps/aidoc/trunk/amp-aicore/lib/javacsv.jar
+END
+maven-ant-tasks-2.0.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/14085/apps/aidoc/trunk/amp-aicore/lib/maven-ant-tasks-2.0.9.jar
+END

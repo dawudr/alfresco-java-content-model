@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+
+<beans>
+
+  <bean id="openOfficeConnectionPool"
+    class="org.amnesty.aidoc.transform.OpenOfficeConnectionPool"
+    singleton="true">
+    <property name="startupConnectionsList">
+      <set>
+        <value>8100</value>
+      </set>
+    </property>
+
+    <property name="crashedConnectionsFolder">
+      <value>d:/temp2/openoffice/connections_crashed/</value>
+    </property>
+    <property name="newConnectionsFolder">
+      <value>d:/temp2/openoffice/connections_new/</value>
+    </property>
+  </bean>
+
+</beans>

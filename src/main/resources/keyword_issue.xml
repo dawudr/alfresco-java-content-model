@@ -1,0 +1,1433 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<keywords>
+	<keyword>
+		<name>CONFESSIONS</name>
+		<value>torture and ill-treatment</value>
+		<value>trials and legal systems</value>
+	</keyword>
+	<keyword>
+		<name>CIVIL DEFENCE</name>
+		<value>armed conflict</value>
+	</keyword>
+	<keyword>
+		<name>MINORITIES</name>
+		<value>discrimination</value>
+	</keyword>
+	<keyword>
+		<name>CHILD LABOUR</name>
+		<value>children</value>
+		<value>economic, social and cultural rights</value>
+	</keyword>
+	<keyword>
+		<name>EDITORS</name>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>IMPUNITY</name>
+		<value>impunity</value>
+	</keyword>
+	<keyword>
+		<name>SEXUAL ASSAULT</name>
+		<value>torture and ill-treatment</value>
+		<value>women</value>
+	</keyword>
+	<keyword>
+		<name>WITNESS TESTIMONIES</name>
+		<value>trials and legal systems</value>
+	</keyword>
+	<keyword>
+		<name>UN AGENCIES</name>
+		<value>United Nations</value>
+	</keyword>
+	<keyword>
+		<name>ECOSOC</name>
+		<value>United Nations</value>
+	</keyword>
+	<keyword>
+		<name>PRISONERS' LISTS</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>ILO</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>SOLITARY CONFINEMENT</name>
+		<value>detention</value>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>FORCED EVICTION</name>
+		<value>economic, social and cultural rights</value>
+		<value>poverty</value>
+		<value>refugees, displaced people and migrants</value>
+	</keyword>
+	<keyword>
+		<name>PARDONS</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>CIVIL UNREST</name>
+		<value>armed conflict</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS GROUPS - CATHOLIC</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS GROUPS - FALUN GONG</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS OFFICIALS - ISLAMIC</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>UNLAWFUL DETENTION</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>FOOD</name>
+		<value>economic, social and cultural rights</value>
+	</keyword>
+	<keyword>
+		<name>COMMUTATION</name>
+		<value>death penalty</value>
+	</keyword>
+	<keyword>
+		<name>ARAB LEAGUE</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>UN</name>
+		<value>United Nations</value>
+	</keyword>
+	<keyword>
+		<name>HOMOSEXUAL RIGHTS ACTIVISTS</name>
+		<value>activists</value>
+		<value>sexual orientation and gender identity</value>
+	</keyword>
+	<keyword>
+		<name>LONG-TERM IMPRISONMENT</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS OFFICIALS - CATHOLIC</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>HEALTH</name>
+		<value>economic, social and cultural rights</value>
+		<value>medical and health</value>
+		<value>poverty</value>
+	</keyword>
+	<keyword>
+		<name>FEAR OF IMMINENT EXECUTION</name>
+		<value>death penalty</value>
+	</keyword>
+	<keyword>
+		<name>USE OF EXCESSIVE FORCE</name>
+		<value>law enforcement</value>
+	</keyword>
+	<keyword>
+		<name>NOMADS</name>
+		<value>discrimination</value>
+	</keyword>
+	<keyword>
+		<name>CRIMES AGAINST HUMANITY</name>
+		<value>crimes against humanity and war crimes</value>
+	</keyword>
+	<keyword>
+		<name>EU</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>UNHCHR</name>
+		<value>United Nations</value>
+	</keyword>
+	<keyword>
+		<name>FEAR OF UNFAIR TRIAL</name>
+		<value>trials and legal systems</value>
+	</keyword>
+	<keyword>
+		<name>ACKNOWLEDGEMENT OF DETENTION</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>DETENTION FOR RE-EDUCATION</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>HARASSMENT</name>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>CONSCIENTIOUS OBJECTORS</name>
+		<value>prisoners of conscience</value>
+	</keyword>
+	<keyword>
+		<name>MARRIAGE</name>
+		<value>economic, social and cultural rights</value>
+		<value>women</value>
+	</keyword>
+	<keyword>
+		<name>FEAR OF ARREST AS POC</name>
+		<value>prisoners of conscience</value>
+	</keyword>
+	<keyword>
+		<name>ICCPR</name>
+		<value>human rights standards</value>
+	</keyword>
+	<keyword>
+		<name>STAY OF EXECUTION</name>
+		<value>death penalty</value>
+	</keyword>
+	<keyword>
+		<name>TRAFFICKING</name>
+		<value>torture and ill-treatment</value>
+		<value>women</value>
+	</keyword>
+	<keyword>
+		<name>TRIAL OBSERVATION</name>
+		<value>trials and legal systems</value>
+	</keyword>
+	<keyword>
+		<name>EXTRAJUDICIAL EXECUTION</name>
+		<value>extrajudicial executions and other unlawful killings</value>
+	</keyword>
+	<keyword>
+		<name>DEMONSTRATIONS</name>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS GROUPS - SIKH</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>ENVIRONMENTALISTS</name>
+		<value>activists</value>
+	</keyword>
+	<keyword>
+		<name>PEACE KEEPING</name>
+		<value>armed conflict</value>
+	</keyword>
+	<keyword>
+		<name>ARMED CONFLICT</name>
+		<value>armed conflict</value>
+	</keyword>
+	<keyword>
+		<name>WORLD BANK</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>IMF</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>FORCIBLE RECRUITMENT</name>
+		<value>armed conflict</value>
+	</keyword>
+	<keyword>
+		<name>GENEVA CONVENTION</name>
+		<value>armed conflict</value>
+		<value>human rights standards</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS OFFICIALS - AHMADI</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>POSSIBLE POC</name>
+		<value>prisoners of conscience</value>
+	</keyword>
+	<keyword>
+		<name>UNACKNOWLEDGED DETENTION</name>
+		<value>disappearances and abductions</value>
+	</keyword>
+	<keyword>
+		<name>COMPANY APPROACHES</name>
+		<value>business and human rights</value>
+	</keyword>
+	<keyword>
+		<name>PENAL INSTITUTIONS</name>
+		<value>prison conditions</value>
+	</keyword>
+	<keyword>
+		<name>AIDS/HIV</name>
+		<value>medical and health</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS GROUPS - AHMADI</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>COUNCIL OF EUROPE</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>ECOWAS</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>FEMALE GENITAL MUTILATION</name>
+		<value>women</value>
+	</keyword>
+	<keyword>
+		<name>MEDICAL TREATMENT</name>
+		<value>medical and health</value>
+		<value>prison conditions</value>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>CONSCRIPTION</name>
+		<value>armed conflict</value>
+	</keyword>
+	<keyword>
+		<name>NATURAL RESOURCES</name>
+		<value>business and human rights</value>
+		<value>economic, social and cultural rights</value>
+	</keyword>
+	<keyword>
+		<name>ETHNIC GROUPS</name>
+		<value>discrimination</value>
+	</keyword>
+	<keyword>
+		<name>ACP</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>HEALTH WORKERS</name>
+		<value>medical and health</value>
+	</keyword>
+	<keyword>
+		<name>PRISONERS OF CONSCIENCE</name>
+		<value>prisoners of conscience</value>
+	</keyword>
+	<keyword>
+		<name>HONOUR CRIMES</name>
+		<value>women</value>
+	</keyword>
+	<keyword>
+		<name>TRANSGENDER ISSUES</name>
+		<value>discrimination</value>
+		<value>sexual orientation and gender identity</value>
+	</keyword>
+	<keyword>
+		<name>UDHR</name>
+		<value>human rights standards</value>
+	</keyword>
+	<keyword>
+		<name>HUMAN RIGHTS INSTRUMENTS</name>
+		<value>human rights standards</value>
+	</keyword>
+	<keyword>
+		<name>IACHR</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS OFFICIALS - BUDDHIST</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>SANITATION</name>
+		<value>economic, social and cultural rights</value>
+	</keyword>
+	<keyword>
+		<name>SQUATTERS</name>
+		<value>discrimination</value>
+		<value>economic, social and cultural rights</value>
+	</keyword>
+	<keyword>
+		<name>UNLAWFUL USE OF FIREARMS</name>
+		<value>law enforcement</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS OFFICIALS - ORTHODOX</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>FORCED LABOUR</name>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>POLITICAL PRISONERS</name>
+		<value>prisoners of conscience</value>
+	</keyword>
+	<keyword>
+		<name>STRIP-SEARCHING</name>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>INTER-GOVERNMENTAL ORGANIZATIONS</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>UNIVERSAL JURISDICTION</name>
+		<value>crimes against humanity and war crimes</value>
+		<value>impunity</value>
+		<value>international justice</value>
+	</keyword>
+	<keyword>
+		<name>CIVIL DISOBEDIENCE</name>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>RACIAL DISCRIMINATION</name>
+		<value>discrimination</value>
+	</keyword>
+	<keyword>
+		<name>TORTURE TECHNIQUES</name>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>HOUSING</name>
+		<value>economic, social and cultural rights</value>
+		<value>poverty</value>
+	</keyword>
+	<keyword>
+		<name>DOMESTIC VIOLENCE</name>
+		<value>women</value>
+	</keyword>
+	<keyword>
+		<name>CHILDREN</name>
+		<value>children</value>
+	</keyword>
+	<keyword>
+		<name>PREGNANCY</name>
+		<value>medical and health</value>
+		<value>women</value>
+	</keyword>
+	<keyword>
+		<name>DISPLACED PEOPLE</name>
+		<value>refugees, displaced people and migrants</value>
+	</keyword>
+	<keyword>
+		<name>BOMB ATTACKS</name>
+		<value>armed groups</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS GROUPS - ASSYRIAN CHRISTIAN</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>WCC</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>RETRIALS</name>
+		<value>trials and legal systems</value>
+	</keyword>
+	<keyword>
+		<name>HOUSE DESTRUCTION</name>
+		<value>armed conflict</value>
+	</keyword>
+	<keyword>
+		<name>SABOTAGE</name>
+		<value>trials and legal systems</value>
+	</keyword>
+	<keyword>
+		<name>UNESCO</name>
+		<value>United Nations</value>
+	</keyword>
+	<keyword>
+		<name>FAITH HEALERS</name>
+		<value>medical and health</value>
+	</keyword>
+	<keyword>
+		<name>VIOLATION AFTER RELEASE</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>FORCIBLE FEEDING</name>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>MASS ARREST</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>OCCUPATION</name>
+		<value>armed conflict</value>
+	</keyword>
+	<keyword>
+		<name>DEATH SENTENCE</name>
+		<value>death penalty</value>
+	</keyword>
+	<keyword>
+		<name>FREE TRADE AGREEMENTS</name>
+		<value>business and human rights</value>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS GROUPS - BAHA'I</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>FUNERALS</name>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>REFUGEES</name>
+		<value>refugees, displaced people and migrants</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS GROUPS - ORTHODOX</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>NON-GOVERNMENTAL ENTITIES</name>
+		<value>armed groups</value>
+	</keyword>
+	<keyword>
+		<name>MILITARY TRIBUNALS</name>
+		<value>trials and legal systems</value>
+	</keyword>
+	<keyword>
+		<name>HUMAN RIGHTS DEFENDERS</name>
+		<value>activists</value>
+	</keyword>
+	<keyword>
+		<name>MILITARY</name>
+		<value>law enforcement</value>
+	</keyword>
+	<keyword>
+		<name>SEXUAL HARASSMENT</name>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>BONDED LABOUR</name>
+		<value>economic, social and cultural rights</value>
+	</keyword>
+	<keyword>
+		<name>ADVERSE DISCRIMINATION</name>
+		<value>discrimination</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS OFFICIALS - SIKH</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>DEPORTATION</name>
+		<value>refugees, displaced people and migrants</value>
+	</keyword>
+	<keyword>
+		<name>PSYCHIATRIC CONFINEMENT</name>
+		<value>detention</value>
+		<value>medical and health</value>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>UN COMMITTEE ON ESCR</name>
+		<value>poverty</value>
+	</keyword>
+	<keyword>
+		<name>PSYCHIATRIC ABUSE</name>
+		<value>medical and health</value>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>UNLAWFUL KILLING</name>
+		<value>extrajudicial executions and other unlawful killings</value>
+	</keyword>
+	<keyword>
+		<name>UNICEF</name>
+		<value>United Nations</value>
+	</keyword>
+	<keyword>
+		<name>UN CONVENTION ON THE RIGHTS OF THE CHILD</name>
+		<value>human rights standards</value>
+	</keyword>
+	<keyword>
+		<name>REVOLUTIONS</name>
+		<value>armed conflict</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS OFFICIALS - BAHA'I</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>COUPS</name>
+		<value>armed conflict</value>
+	</keyword>
+	<keyword>
+		<name>MILITARY POLICE</name>
+		<value>law enforcement</value>
+	</keyword>
+	<keyword>
+		<name>ADMINISTRATIVE DETENTION</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS GROUPS - JEHOVAH'S WITNESS</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>AMNESTIES</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>COMEDIANS</name>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>CERD</name>
+		<value>human rights standards</value>
+		<value>United Nations</value>
+	</keyword>
+	<keyword>
+		<name>MEDICAL CONFIRMATION</name>
+		<value>medical and health</value>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>PRISON VIOLENCE</name>
+		<value>prison conditions</value>
+	</keyword>
+	<keyword>
+		<name>UN COMMITTEE AGAINST TORTURE</name>
+		<value>United Nations</value>
+	</keyword>
+	<keyword>
+		<name>NATO</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>EXTRALEGAL COURTS</name>
+		<value>trials and legal systems</value>
+	</keyword>
+	<keyword>
+		<name>INDIGENOUS PEOPLES</name>
+		<value>discrimination</value>
+		<value>economic, social and cultural rights</value>
+		<value>poverty</value>
+		<value>indigenous peoples</value>
+	</keyword>
+	<keyword>
+		<name>HOUSE/TOWN ARREST</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>UN SECURITY COUNCIL</name>
+		<value>United Nations</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS OFFICIALS - ASSYRIAN CHRISTIAN</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>WEAPONS OF WARFARE</name>
+		<value>armed conflict</value>
+		<value>military, security and police equipment</value>
+	</keyword>
+	<keyword>
+		<name>MEDICAL ACTIONS</name>
+		<value>medical and health</value>
+	</keyword>
+	<keyword>
+		<name>MIGRANT WORKERS CONVENTION</name>
+		<value>human rights standards</value>
+		<value>refugees, displaced people and migrants</value>
+		<value>United Nations</value>
+	</keyword>
+	<keyword>
+		<name>SCHOOLCHILDREN</name>
+		<value>children</value>
+	</keyword>
+	<keyword>
+		<name>INDISCRIMINATE KILLINGS</name>
+		<value>extrajudicial executions and other unlawful killings</value>
+	</keyword>
+	<keyword>
+		<name>CEDAW</name>
+		<value>human rights standards</value>
+		<value>United Nations</value>
+	</keyword>
+	<keyword>
+		<name>ECHR</name>
+		<value>human rights standards</value>
+	</keyword>
+	<keyword>
+		<name>ICESCR</name>
+		<value>economic, social and cultural rights</value>
+		<value>human rights standards</value>
+		<value>poverty</value>
+	</keyword>
+	<keyword>
+		<name>ECONOMIC CONDITIONS</name>
+		<value>economic, social and cultural rights</value>
+	</keyword>
+	<keyword>
+		<name>CONTINUED DETENTION</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>EXILE</name>
+		<value>refugees, displaced people and migrants</value>
+	</keyword>
+	<keyword>
+		<name>UN COMMITTEE ON THE RIGHTS OF THE CHILD</name>
+		<value>United Nations</value>
+	</keyword>
+	<keyword>
+		<name>DOCTORS</name>
+		<value>medical and health</value>
+	</keyword>
+	<keyword>
+		<name>ASEM</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>FOREIGN NATIONALS</name>
+		<value>discrimination</value>
+	</keyword>
+	<keyword>
+		<name>LAND PROBLEMS</name>
+		<value>discrimination</value>
+		<value>economic, social and cultural rights</value>
+		<value>poverty</value>
+	</keyword>
+	<keyword>
+		<name>PROFESSIONAL ETHICS</name>
+		<value>medical and health</value>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>REDUCTION OF SENTENCE</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>ADVOCACY OF HATRED</name>
+		<value>discrimination</value>
+	</keyword>
+	<keyword>
+		<name>TRIALS</name>
+		<value>trials and legal systems</value>
+	</keyword>
+	<keyword>
+		<name>JUDGES</name>
+		<value>trials and legal systems</value>
+	</keyword>
+	<keyword>
+		<name>ENVIRONMENT</name>
+		<value>economic, social and cultural rights</value>
+	</keyword>
+	<keyword>
+		<name>RESTRICTION ON MOVEMENT</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>POSSIBLE EXTRAJUDICIAL EXECUTION</name>
+		<value>extrajudicial executions and other unlawful killings</value>
+	</keyword>
+	<keyword>
+		<name>SPEECH THERAPISTS</name>
+		<value>medical and health</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS OFFICIALS</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>USE OF FORCE</name>
+		<value>armed conflict</value>
+	</keyword>
+	<keyword>
+		<name>WITNESSES</name>
+		<value>trials and legal systems</value>
+	</keyword>
+	<keyword>
+		<name>INTERNATIONAL MEETINGS</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>WATER</name>
+		<value>economic, social and cultural rights</value>
+	</keyword>
+	<keyword>
+		<name>TRADITIONAL HEALERS</name>
+		<value>medical and health</value>
+	</keyword>
+	<keyword>
+		<name>FEAR OF CORPORAL PUNISHMENT</name>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>SEXUAL EXPLOITATION</name>
+		<value>women</value>
+	</keyword>
+	<keyword>
+		<name>RELEASE</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>SADC</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>INTERNAL EXILE</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>REFUGEE WORKERS</name>
+		<value>refugees, displaced people and migrants</value>
+	</keyword>
+	<keyword>
+		<name>DEATH PENALTY</name>
+		<value>death penalty</value>
+	</keyword>
+	<keyword>
+		<name>NURSES</name>
+		<value>medical and health</value>
+	</keyword>
+	<keyword>
+		<name>EXHUMATION</name>
+		<value>impunity</value>
+	</keyword>
+	<keyword>
+		<name>PRISONERS' TESTIMONIES</name>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>CONDITIONAL RELEASE</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>DENTISTS</name>
+		<value>medical and health</value>
+	</keyword>
+	<keyword>
+		<name>UN CONVENTION AGAINST TORTURE</name>
+		<value>human rights standards</value>
+	</keyword>
+	<keyword>
+		<name>UN HUMAN RIGHTS COMMITTEE</name>
+		<value>United Nations</value>
+	</keyword>
+	<keyword>
+		<name>COMMUNAL VIOLENCE</name>
+		<value>armed conflict</value>
+	</keyword>
+	<keyword>
+		<name>EXTRADITION</name>
+		<value>refugees, displaced people and migrants</value>
+	</keyword>
+	<keyword>
+		<name>PRISONERS OF WAR</name>
+		<value>armed conflict</value>
+	</keyword>
+	<keyword>
+		<name>AMPUTATION</name>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>ARMED CIVILIANS</name>
+		<value>armed groups</value>
+	</keyword>
+	<keyword>
+		<name>DRUG TRAFFICKING</name>
+		<value>trials and legal systems</value>
+	</keyword>
+	<keyword>
+		<name>FEAR OF EXTRAJUDICIAL EXECUTION</name>
+		<value>extrajudicial executions and other unlawful killings</value>
+	</keyword>
+	<keyword>
+		<name>HERBALISTS</name>
+		<value>medical and health</value>
+	</keyword>
+	<keyword>
+		<name>AMNESTIES FOR VIOLATORS</name>
+		<value>impunity</value>
+	</keyword>
+	<keyword>
+		<name>FEAR OF DEATH SENTENCE</name>
+		<value>death penalty</value>
+	</keyword>
+	<keyword>
+		<name>PHARMACISTS</name>
+		<value>medical and health</value>
+	</keyword>
+	<keyword>
+		<name>AID</name>
+		<value>economic, social and cultural rights</value>
+	</keyword>
+	<keyword>
+		<name>ASEAN</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>WORK</name>
+		<value>economic, social and cultural rights</value>
+	</keyword>
+	<keyword>
+		<name>ARBITRARY ARREST</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>UN HUMAN RIGHTS COUNCIL</name>
+		<value>United Nations</value>
+	</keyword>
+	<keyword>
+		<name>PRISON CONDITIONS</name>
+		<value>prison conditions</value>
+	</keyword>
+	<keyword>
+		<name>PEACE ACTIVISTS</name>
+		<value>activists</value>
+	</keyword>
+	<keyword>
+		<name>WORLD TRADE ORGANIZATION</name>
+		<value>business and human rights</value>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>POSSIBLE DISAPPEARANCE</name>
+		<value>disappearances and abductions</value>
+	</keyword>
+	<keyword>
+		<name>DISAPPEARANCES</name>
+		<value>disappearances and abductions</value>
+	</keyword>
+	<keyword>
+		<name>TORTURE/ILL-TREATMENT</name>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>CULTURAL RIGHTS</name>
+		<value>economic, social and cultural rights</value>
+	</keyword>
+	<keyword>
+		<name>INTERNATIONAL TRIBUNALS</name>
+		<value>crimes against humanity and war crimes</value>
+		<value>international justice</value>
+	</keyword>
+	<keyword>
+		<name>REFOULEMENT</name>
+		<value>refugees, displaced people and migrants</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS GROUPS - BUDDHIST</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>INDEPENDENCE OF JUDICIARY</name>
+		<value>trials and legal systems</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS GROUPS - ISLAMIC</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>ESCR</name>
+		<value>economic, social and cultural rights</value>
+		<value>poverty</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS GROUPS - PROTESTANT</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>REPRODUCTIVE RIGHTS</name>
+		<value>economic, social and cultural rights</value>
+		<value>women</value>
+	</keyword>
+	<keyword>
+		<name>ASYLUM</name>
+		<value>refugees, displaced people and migrants</value>
+	</keyword>
+	<keyword>
+		<name>FEAR OF AMPUTATION</name>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>NON-GOVERNMENTAL ORGANIZATIONS</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>INTERNATIONAL COMMITTEE OF JURISTS</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>TRADE UNIONISTS</name>
+		<value>activists</value>
+	</keyword>
+	<keyword>
+		<name>MIGRANT WORKERS</name>
+		<value>refugees, displaced people and migrants</value>
+	</keyword>
+	<keyword>
+		<name>POLICE</name>
+		<value>law enforcement</value>
+	</keyword>
+	<keyword>
+		<name>DENIAL OF MEDICAL CARE</name>
+		<value>medical and health</value>
+		<value>prison conditions</value>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>COMMUNITY LEADERS</name>
+		<value>activists</value>
+	</keyword>
+	<keyword>
+		<name>COMMON CRIMINALS</name>
+		<value>trials and legal systems</value>
+	</keyword>
+	<keyword>
+		<name>FEAR FOR SAFETY</name>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS GROUPS - HINDU</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>POLITICAL VIOLENCE</name>
+		<value>armed groups</value>
+	</keyword>
+	<keyword>
+		<name>POLITICAL ACTIVISTS</name>
+		<value>activists</value>
+	</keyword>
+	<keyword>
+		<name>ESCAPES</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>INVESTIGATION OF ABUSES</name>
+		<value>impunity</value>
+	</keyword>
+	<keyword>
+		<name>DEATH THREATS</name>
+		<value>extrajudicial executions and other unlawful killings</value>
+	</keyword>
+	<keyword>
+		<name>ACHPR</name>
+		<value>human rights standards</value>
+	</keyword>
+	<keyword>
+		<name>FEAR OF REFOULEMENT</name>
+		<value>refugees, displaced people and migrants</value>
+	</keyword>
+	<keyword>
+		<name>APEC</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>HUNGER-STRIKE</name>
+		<value>prison conditions</value>
+	</keyword>
+	<keyword>
+		<name>JUVENILES</name>
+		<value>children</value>
+	</keyword>
+	<keyword>
+		<name>MEC</name>
+		<value>business and human rights</value>
+		<value>economic, social and cultural rights</value>
+		<value>poverty</value>
+	</keyword>
+	<keyword>
+		<name>ACHR</name>
+		<value>human rights standards</value>
+	</keyword>
+	<keyword>
+		<name>STREET CHILDREN</name>
+		<value>children</value>
+	</keyword>
+	<keyword>
+		<name>ELECTRO-SHOCK EQUIPMENT</name>
+		<value>military, security and police equipment</value>
+	</keyword>
+	<keyword>
+		<name>NATIONAL HUMAN RIGHTS COMMISSION</name>
+		<value>trials and legal systems</value>
+	</keyword>
+	<keyword>
+		<name>COMMONWEALTH</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>SEXUAL RIGHTS</name>
+		<value>economic, social and cultural rights</value>
+	</keyword>
+	<keyword>
+		<name>TREASON</name>
+		<value>trials and legal systems</value>
+	</keyword>
+	<keyword>
+		<name>UNHCR</name>
+		<value>United Nations</value>
+	</keyword>
+	<keyword>
+		<name>POLICE/MILITARY TESTIMONIES</name>
+		<value>impunity</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS GROUPS - CHRISTIAN</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>PSYCHIATRISTS</name>
+		<value>medical and health</value>
+	</keyword>
+	<keyword>
+		<name>EXTENSION OF SENTENCE</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>COMMUNITY WORKERS</name>
+		<value>activists</value>
+	</keyword>
+	<keyword>
+		<name>UN COMMISSION ON HUMAN RIGHTS</name>
+		<value>United Nations</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS GROUPS</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>MENTAL HEALTH</name>
+		<value>medical and health</value>
+	</keyword>
+	<keyword>
+		<name>DESTRUCTION OF VILLAGES</name>
+		<value>armed conflict</value>
+	</keyword>
+	<keyword>
+		<name>ATTEMPTED ABDUCTION</name>
+		<value>disappearances and abductions</value>
+	</keyword>
+	<keyword>
+		<name>MSP</name>
+		<value>military, security and police equipment</value>
+	</keyword>
+	<keyword>
+		<name>RECRUITMENT OF CHILD SOLDIERS</name>
+		<value>children</value>
+	</keyword>
+	<keyword>
+		<name>LAWYERS</name>
+		<value>activists</value>
+	</keyword>
+	<keyword>
+		<name>HABEAS CORPUS</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>WOMEN'S RIGHTS ACTIVISTS</name>
+		<value>activists</value>
+		<value>women</value>
+	</keyword>
+	<keyword>
+		<name>JOURNALISTS</name>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>SEXUAL ORIENTATION</name>
+		<value>discrimination</value>
+		<value>sexual orientation and gender identity</value>
+	</keyword>
+	<keyword>
+		<name>HOMELESS PEOPLE</name>
+		<value>discrimination</value>
+		<value>economic, social and cultural rights</value>
+		<value>poverty</value>
+	</keyword>
+	<keyword>
+		<name>FREEDOM OF ASSOCIATION</name>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>PHYSIOTHERAPISTS</name>
+		<value>medical and health</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS GROUPS - BAPTIST</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>HOMEOPATHS</name>
+		<value>medical and health</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS GROUPS - JEWISH</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>EDUCATION</name>
+		<value>economic, social and cultural rights</value>
+	</keyword>
+	<keyword>
+		<name>LEGISLATION</name>
+		<value>trials and legal systems</value>
+	</keyword>
+	<keyword>
+		<name>OAU</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>MEDICAL BULLETINS</name>
+		<value>medical and health</value>
+	</keyword>
+	<keyword>
+		<name>CENSORSHIP</name>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>OAS</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>DEATH IN CUSTODY</name>
+		<value>death in custody</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS OFFICIALS - JEHOVAH'S WITNESS</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>COMPANIES</name>
+		<value>business and human rights</value>
+	</keyword>
+	<keyword>
+		<name>FORMER GOVERNMENTS</name>
+		<value>impunity</value>
+	</keyword>
+	<keyword>
+		<name>WAR CRIMES</name>
+		<value>crimes against humanity and war crimes</value>
+	</keyword>
+	<keyword>
+		<name>WITHDRAWAL OF CHARGES</name>
+		<value>trials and legal systems</value>
+	</keyword>
+	<keyword>
+		<name>ATTEMPTED KILLING</name>
+		<value>extrajudicial executions and other unlawful killings</value>
+	</keyword>
+	<keyword>
+		<name>HOSTAGE TAKING</name>
+		<value>disappearances and abductions</value>
+	</keyword>
+	<keyword>
+		<name>DEBT RELIEF</name>
+		<value>economic, social and cultural rights</value>
+	</keyword>
+	<keyword>
+		<name>DETENTION WITHOUT TRIAL</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>RENDITION</name>
+		<value>detention</value>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>LEGAL SYSTEMS</name>
+		<value>trials and legal systems</value>
+	</keyword>
+	<keyword>
+		<name>EXTORTION</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>MASS KILLING</name>
+		<value>crimes against humanity and war crimes</value>
+		<value>extrajudicial executions and other unlawful killings</value>
+	</keyword>
+	<keyword>
+		<name>BROADCASTERS</name>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>PSYCHOLOGISTS</name>
+		<value>medical and health</value>
+	</keyword>
+	<keyword>
+		<name>FEAR OF FORCIBLE EXILE</name>
+		<value>refugees, displaced people and migrants</value>
+	</keyword>
+	<keyword>
+		<name>REAPPEARANCE</name>
+		<value>disappearances and abductions</value>
+	</keyword>
+	<keyword>
+		<name>HUMAN RIGHTS ACTIVISTS</name>
+		<value>activists</value>
+	</keyword>
+	<keyword>
+		<name>PRISON STAFF</name>
+		<value>prison conditions</value>
+	</keyword>
+	<keyword>
+		<name>ILL-HEALTH</name>
+		<value>medical and health</value>
+	</keyword>
+	<keyword>
+		<name>ESPIONAGE</name>
+		<value>trials and legal systems</value>
+	</keyword>
+	<keyword>
+		<name>NGE ABDUCTION</name>
+		<value>armed groups</value>
+		<value>disappearances and abductions</value>
+	</keyword>
+	<keyword>
+		<name>FREEDOM OF EXPRESSION</name>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>ATTACKS</name>
+		<value>armed conflict</value>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>COMPENSATION</name>
+		<value>impunity</value>
+	</keyword>
+	<keyword>
+		<name>FEAR OF DISAPPEARANCE</name>
+		<value>disappearances and abductions</value>
+	</keyword>
+	<keyword>
+		<name>INCOMMUNICADO DETENTION</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>CORPORAL PUNISHMENT</name>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>FEAR OF DENIAL OF MEDICAL CARE</name>
+		<value>medical and health</value>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>RELIGIOUS OFFICIALS - PROTESTANT</name>
+		<value>discrimination</value>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>STATELESS PEOPLE</name>
+		<value>refugees, displaced people and migrants</value>
+	</keyword>
+	<keyword>
+		<name>IPU</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>POST MORTEMS</name>
+		<value>impunity</value>
+	</keyword>
+	<keyword>
+		<name>RESTRAINTS</name>
+		<value>military, security and police equipment</value>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>DEFAMATION</name>
+		<value>freedom of expression</value>
+	</keyword>
+	<keyword>
+		<name>ICRC</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>ICC</name>
+		<value>crimes against humanity and war crimes</value>
+		<value>international justice</value>
+	</keyword>
+	<keyword>
+		<name>WHO</name>
+		<value>international organizations</value>
+		<value>medical and health</value>
+	</keyword>
+	<keyword>
+		<name>UNLAWFUL PUNISHMENTS</name>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>OSCE</name>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>INFANTS</name>
+		<value>children</value>
+	</keyword>
+	<keyword>
+		<name>OCCUPATIONAL THERAPISTS</name>
+		<value>medical and health</value>
+	</keyword>
+	<keyword>
+		<name>ICJ</name>
+		<value>international justice</value>
+		<value>international organizations</value>
+	</keyword>
+	<keyword>
+		<name>WOMEN</name>
+		<value>discrimination</value>
+		<value>women</value>
+	</keyword>
+	<keyword>
+		<name>DISABLEMENT</name>
+		<value>medical and health</value>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>FORCED EVACUATION</name>
+		<value>refugees, displaced people and migrants</value>
+	</keyword>
+	<keyword>
+		<name>EXECUTION</name>
+		<value>death penalty</value>
+	</keyword>
+	<keyword>
+		<name>REARREST</name>
+		<value>detention</value>
+	</keyword>
+	<keyword>
+		<name>CHILD SOLDIERS</name>
+		<value>children</value>
+	</keyword>
+	<keyword>
+		<name>SURVEILLANCE</name>
+		<value>torture and ill-treatment</value>
+	</keyword>
+	<keyword>
+		<name>POLITICALLY MOTIVATED CRIMINAL CHARGES</name>
+		<value>trials and legal systems</value>
+	</keyword>
+	<keyword>
+		<name>PARAMILITARIES</name>
+		<value>armed groups</value>
+		<value>law enforcement</value>
+	</keyword>
+</keywords>
